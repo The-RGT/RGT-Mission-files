@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=457;
+		nextID=485;
 	};
 	class Camera
 	{
-		pos[]={20755.635,35.171524,7271.8691};
-		dir[]={-0.22831748,-0.92623085,0.29996225};
-		up[]={-0.56098574,0.37695578,0.73702127};
-		aside[]={0.79572362,-1.1955854e-07,0.60566825};
+		pos[]={20772.422,56.282223,7213.7837};
+		dir[]={0.4482277,-0.38850135,-0.80508316};
+		up[]={0.18898192,0.92144805,-0.33943942};
+		aside[]={-0.87371498,1.4901161e-08,-0.48643827};
 	};
 };
 binarizationWanted=0;
@@ -63,7 +63,6 @@ addons[]=
 	"A3_Structures_F_Mil_Helipads",
 	"RHS_US_A2_AirImport",
 	"A3_Soft_F_Gamma_Truck_01",
-	"A3_Soft_F_Exp_Truck_01",
 	"ace_realisticnames",
 	"ace_refuel",
 	"ace_cargo",
@@ -121,9 +120,10 @@ addons[]=
 	"rhsgref_c_weapons",
 	"ace_trenches",
 	"TRYK_Uniform",
-	"AMP_Breaching_Charge",
+	"tsp_breach_linear",
 	"ace_grenades",
 	"po_factions_fic",
+	"ace_compat_rhs_usf3_hearing",
 	"rhsgref_c_troops",
 	"USP_Gear_Face"
 };
@@ -131,7 +131,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=79;
+		items=78;
 		class Item0
 		{
 			className="rhsusf_c_melb";
@@ -295,364 +295,356 @@ class AddonsMetaData
 		};
 		class Item24
 		{
-			className="A3_Soft_F_Exp";
-			name="Arma 3 Apex - Unarmored Land Vehicles";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item25
-		{
 			className="ace_refuel";
 			name="ACE3 - Refuel";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item26
+		class Item25
 		{
 			className="ace_cargo";
 			name="ACE3 - Cargo";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item27
+		class Item26
 		{
 			className="rhsusf_c_HEMTT_A4";
 			name="HEMMTT A4 Trucks";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item28
+		class Item27
 		{
 			className="RHS_US_A2Port_Armor";
 			name="M2 Bradley IFV";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item29
+		class Item28
 		{
 			className="rhsusf_c_m1a2";
 			name="M1A2 Tanks";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item30
+		class Item29
 		{
 			className="rhsusf_c_RG33L";
 			name="RG33L MRAP";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item31
+		class Item30
 		{
 			className="rhsusf_c_Cougar";
 			name="Cougar MRAP";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item32
+		class Item31
 		{
 			className="rhsusf_vehicles";
 			name="rhsusf_vehicles";
 		};
-		class Item33
+		class Item32
 		{
 			className="NDS_6x6_ATV";
 			name="NDS_6x6_ATV";
 			author="Neddles";
 		};
-		class Item34
+		class Item33
 		{
 			className="rhsusf_c_mrzr";
 			name="MRZR";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item35
+		class Item34
 		{
 			className="A3_Props_F_Exp";
 			name="Arma 3 Apex - Decorative and Mission Objects";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item36
+		class Item35
 		{
 			className="A3_Structures_F_Exp";
 			name="Arma 3 Apex - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item37
+		class Item36
 		{
 			className="A3_Structures_F_Argo";
 			name="Arma 3 Malden - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item38
+		class Item37
 		{
 			className="rhsusf_c_MATV";
 			name="MATV MRAP";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item39
+		class Item38
 		{
 			className="ace_explosives";
 			name="ACE3 - Explosives";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item40
+		class Item39
 		{
 			className="RHSGREF_c_A29";
 			name="GREF Super Tucano";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item41
+		class Item40
 		{
 			className="ace_medical_treatment";
 			name="ACE3 - Medical Treatment";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item42
+		class Item41
 		{
 			className="ace_slideshow";
 			name="ACE3 - Slideshow";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item43
+		class Item42
 		{
 			className="Jbad_Misc_Construction";
 			name="Jbad_Misc_Construction";
 		};
-		class Item44
+		class Item43
 		{
 			className="rhs_c_weapons";
 			name="AFRF Weapons Pack";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item45
+		class Item44
 		{
 			className="A3_Supplies_F_Exp";
 			name="Arma 3 Apex - Ammoboxes and Supplies";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item46
+		class Item45
 		{
 			className="po_factions_eu";
 			name="po_factions_eu";
 			author="Leight, Keeway";
 		};
-		class Item47
+		class Item46
 		{
 			className="milgp_headgear_cfg";
 			name="milgp_headgear_cfg";
 		};
-		class Item48
+		class Item47
 		{
 			className="MyAddon";
 			name="ACE Compat - Military Gear Pack";
 			author="Smith";
 			url="https://steamcommunity.com/profiles/76561197990550454/";
 		};
-		class Item49
+		class Item48
 		{
 			className="ARD_Crye_Config";
 			name="ARD_Crye_Config";
 		};
-		class Item50
+		class Item49
 		{
 			className="milgp_vests_cfg";
 			name="milgp_vests_cfg";
 		};
-		class Item51
+		class Item50
 		{
 			className="ace_vector";
 			name="ACE3 - Vector";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item52
+		class Item51
 		{
 			className="A3_Characters_F_Exp";
 			name="Arma 3 Apex - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item53
+		class Item52
 		{
 			className="ace_attach";
 			name="ACE3 - Attach";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item54
+		class Item53
 		{
 			className="ace_chemlights";
-			name="ace_chemlights";
+			name="ACE3 - Chemlights";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item55
+		class Item54
 		{
 			className="ace_hearing";
 			name="ACE3 - Hearing";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item56
+		class Item55
 		{
 			className="ace_flashlights";
 			name="ACE3 - Flashlights";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item57
+		class Item56
 		{
 			className="ace_maptools";
 			name="ACE3 - Map Tools";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item58
+		class Item57
 		{
 			className="ace_atragmx";
 			name="ACE3 - ATragMX";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item59
+		class Item58
 		{
 			className="ace_kestrel4500";
 			name="ACE3 - Kestrel 4500";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item60
+		class Item59
 		{
 			className="ace_rangecard";
 			name="ACE3 - Range Card";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item61
+		class Item60
 		{
 			className="ace_microdagr";
 			name="ACE3 - MicroDAGR";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item62
+		class Item61
 		{
 			className="rhsusf_c_weapons";
 			name="RHSUSF Weapons & Accessories";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item63
+		class Item62
 		{
 			className="USP_Gear_NVG";
 			name="USP Gear (NVG)";
 			author="UnderSiege Productions";
 			url="https://uspmod.com/";
 		};
-		class Item64
+		class Item63
 		{
 			className="USP_Gear_Head";
 			name="USP_Gear_Head";
 		};
-		class Item65
+		class Item64
 		{
 			className="USP_Gear_Body";
 			name="USP Gear (Body)";
 			author="UnderSiege Productions";
 			url="https://uspmod.com/";
 		};
-		class Item66
+		class Item65
 		{
 			className="ace_captives";
 			name="ACE3 - Captives";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item67
+		class Item66
 		{
 			className="tfar_core";
 			name="TFAR - Core";
 			author="Task Force Arrowhead Radio Team";
 		};
-		class Item68
+		class Item67
 		{
 			className="ace_medical_vitals";
 			name="ACE3 - Medical Vitals";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item69
+		class Item68
 		{
 			className="rhs_c_troops";
 			name="AFRF Infantry & Equipment";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item70
+		class Item69
 		{
 			className="ace_compat_rhs_afrf3_nightvision";
 			name="ACE3 - RHS AFRF Compatibility";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item71
+		class Item70
 		{
 			className="rhsgref_c_weapons";
 			name="GREF Weapons";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item72
+		class Item71
 		{
 			className="ace_trenches";
 			name="ACE3 - Trenches";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item73
+		class Item72
 		{
 			className="TRYK_Uniform";
 			name="TRYK_Uniform";
 		};
-		class Item74
+		class Item73
 		{
-			className="AMP_Breaching_Charge";
-			name="bcdw - main";
-			author="Ampersand";
+			className="tsp_breach_linear";
+			name="tsp_breach_linear";
 		};
-		class Item75
+		class Item74
 		{
 			className="ace_grenades";
 			name="ACE3 - Grenades";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item76
+		class Item75
 		{
 			className="po_factions_fic";
 			name="po_factions_fic";
 			author="Leight, Keeway";
 		};
-		class Item77
+		class Item76
 		{
 			className="rhsgref_c_troops";
 			name="GREF Infantry & Equipment";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item78
+		class Item77
 		{
 			className="USP_Gear_Face";
 			name="USP Gear (Face)";
@@ -18083,7 +18075,7 @@ class Mission
 				class Attribute1
 				{
 					property="ace_refuel_fuelCargo";
-					expression="if (_value != (if (isNumber (configOf _this >> ""ace_refuel_fuelCargo"")) then {getNumber (configOf _this >> ""ace_refuel_fuelCargo"")} else {-1})) then {[_this, _value] call ace_refuel_fnc_makeSource}";
+					expression="if (_value != (_this call ace_refuel_fnc_getFuelCargo)) then {[_this, _value] call ace_refuel_fnc_makeSource}";
 					class Value
 					{
 						class data
@@ -20299,7 +20291,7 @@ class Mission
 				class Attribute1
 				{
 					property="ace_refuel_fuelCargo";
-					expression="if (_value != (if (isNumber (configOf _this >> ""ace_refuel_fuelCargo"")) then {getNumber (configOf _this >> ""ace_refuel_fuelCargo"")} else {-1})) then {[_this, _value] call ace_refuel_fnc_makeSource}";
+					expression="if (_value != (_this call ace_refuel_fnc_getFuelCargo)) then {[_this, _value] call ace_refuel_fnc_makeSource}";
 					class Value
 					{
 						class data
@@ -20362,7 +20354,7 @@ class Mission
 				class Attribute1
 				{
 					property="ace_refuel_fuelCargo";
-					expression="if (_value != (if (isNumber (configOf _this >> ""ace_refuel_fuelCargo"")) then {getNumber (configOf _this >> ""ace_refuel_fuelCargo"")} else {-1})) then {[_this, _value] call ace_refuel_fnc_makeSource}";
+					expression="if (_value != (_this call ace_refuel_fnc_getFuelCargo)) then {[_this, _value] call ace_refuel_fnc_makeSource}";
 					class Value
 					{
 						class data
@@ -20424,7 +20416,7 @@ class Mission
 				class Attribute1
 				{
 					property="ace_refuel_fuelCargo";
-					expression="if (_value != (if (isNumber (configOf _this >> ""ace_refuel_fuelCargo"")) then {getNumber (configOf _this >> ""ace_refuel_fuelCargo"")} else {-1})) then {[_this, _value] call ace_refuel_fnc_makeSource}";
+					expression="if (_value != (_this call ace_refuel_fnc_getFuelCargo)) then {[_this, _value] call ace_refuel_fnc_makeSource}";
 					class Value
 					{
 						class data
@@ -26417,8 +26409,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={20781.367,30.64658,7182.1724};
-				angles[]={6.2738504,1.4802245,6.2618566};
+				position[]={20781.367,30.64687,7182.1724};
+				angles[]={6.2738476,1.4802312,6.2618575};
 			};
 			side="Empty";
 			flags=4;
@@ -26427,7 +26419,7 @@ class Mission
 			};
 			id=1071;
 			type="Box_NATO_AmmoOrd_F";
-			atlOffset=0.20471001;
+			atlOffset=0.00013542175;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -26439,7 +26431,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="[[[[],[]],[[""ATMine_Range_Mag"",""APERSMine_Range_Mag"",""APERSBoundingMine_Range_Mag"",""SLAMDirectionalMine_Wire_Mag"",""APERSTripMine_Wire_Mag"",""ClaymoreDirectionalMine_Remote_Mag"",""DemoCharge_Remote_Mag"",""SatchelCharge_Remote_Mag"",""tsp_breach_linear_mag""],[5,5,5,5,5,5,10,10,20]],[[""ACE_Clacker"",""ACE_DefusalKit""],[5,1]],[[],[]]],false]";
+							value="[[[[],[]],[[""ATMine_Range_Mag"",""APERSMine_Range_Mag"",""APERSBoundingMine_Range_Mag"",""SLAMDirectionalMine_Wire_Mag"",""APERSTripMine_Wire_Mag"",""ClaymoreDirectionalMine_Remote_Mag"",""DemoCharge_Remote_Mag"",""SatchelCharge_Remote_Mag"",""tsp_breach_linear_mag"",""tsp_breach_package_mag"",""tsp_breach_popper_mag"",""tsp_breach_stick_mag""],[5,5,5,5,5,5,10,10,20,10,10,10]],[[""ACE_Clacker"",""ACE_DefusalKit""],[5,1]],[[],[]]],false]";
 						};
 					};
 				};
@@ -26622,7 +26614,7 @@ class Mission
 				class Attribute1
 				{
 					property="ace_refuel_fuelCargo";
-					expression="if (_value != (if (isNumber (configOf _this >> ""ace_refuel_fuelCargo"")) then {getNumber (configOf _this >> ""ace_refuel_fuelCargo"")} else {-1})) then {[_this, _value] call ace_refuel_fnc_makeSource}";
+					expression="if (_value != (_this call ace_refuel_fnc_getFuelCargo)) then {[_this, _value] call ace_refuel_fnc_makeSource}";
 					class Value
 					{
 						class data
@@ -26722,7 +26714,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="images\SOP_slides-start_screen.paa,images\SOP_slides-sop_03-Map_Overview.paa,images\SOP_slides-sop_03-Navigational_Equipment.paa,images\SOP_slides-sop_03-Reading_a_Grid.paa,images\SOP_slides-sop_03-8-Grid.paa";
+							value="rgt\images\sop_slides-start_screen.paa,rgt\images\sop_slides-sop_03-Map_Overview.paa,rgt\images\sop_slides-sop_03-Navigational_Equipment.paa,rgt\images\sop_slides-sop_03-Reading_a_Grid.paa,rgt\images\sop_slides-sop_03-8-Grid.paa";
 						};
 					};
 				};
@@ -26830,7 +26822,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="images\SOP_slides-start_screen.paa,images\SOP_slides-sop_04-Spacing.paa,images\SOP_slides-sop_04-Formations.paa,images\SOP_slides-sop_04-Bounding_&_Overwatch.paa,images\SOP_slides-sop_04-Pepper_Potting.paa,images\SOP_slides-sop_04-Peeling_Sideways.paa,images\SOP_slides-sop_04-Peeling_Backwards.paa,images\SOP_slides-sop_04-Roadcrossing_01.paa,images\SOP_slides-sop_04-Roadcrossing_02.paa,images\SOP_slides-sop_04-Roadcrossing_03.paa,images\SOP_slides-sop_04-Roadcrossing_04.paa,images\SOP_slides-sop_04-Roadcrossing_05.paa,images\SOP_slides-sop_04-Roadcrossing_06.paa";
+							value="rgt\images\sop_slides-start_screen.paa,rgt\images\sop_slides-sop_04-Spacing.paa,rgt\images\sop_slides-sop_04-Formations.paa,rgt\images\sop_slides-sop_04-Bounding_&_Overwatch.paa,rgt\images\sop_slides-sop_04-Pepper_Potting.paa,rgt\images\sop_slides-sop_04-Peeling_Sideways.paa,rgt\images\sop_slides-sop_04-Peeling_Backwards.paa,rgt\images\sop_slides-sop_04-Roadcrossing_01.paa,rgt\images\sop_slides-sop_04-Roadcrossing_02.paa,rgt\images\sop_slides-sop_04-Roadcrossing_03.paa,rgt\images\sop_slides-sop_04-Roadcrossing_04.paa,rgt\images\sop_slides-sop_04-Roadcrossing_05.paa,rgt\images\sop_slides-sop_04-Roadcrossing_06.paa";
 						};
 					};
 				};
@@ -26937,7 +26929,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="images\SOP_slides-start_screen.paa,images\SOP_slides-sop_05-short_range_radio.paa,images\SOP_slides-sop_05-long_range_radio.paa";
+							value="rgt\images\sop_slides-start_screen.paa,rgt\images\sop_slides-sop_05-short_range_radio.paa,rgt\images\sop_slides-sop_05-long_range_radio.paa";
 						};
 					};
 				};
@@ -27045,7 +27037,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="images\SOP_slides-start_screen.paa,images\SOP_slides-sop_07_1-CQB-1.paa,images\SOP_slides-sop_07_1-CQB-2.paa,images\SOP_slides-sop_07_1-CQB-3.paa,images\SOP_slides-sop_07_1-CQB-4.paa,images\SOP_slides-sop_07_1-CQB-5.paa,images\SOP_slides-sop_07_1-CQB-6.paa,images\SOP_slides-sop_07_1-CQB-Rolling_T.paa,images\SOP_slides-sop_07_1-CQB-Serpentine.paa,images\SOP_slides-sop_07_1-Stairwell.paa";
+							value="rgt\images\sop_slides-start_screen.paa,rgt\images\sop_slides-sop_07_1-CQB-1.paa,rgt\images\sop_slides-sop_07_1-CQB-2.paa,rgt\images\sop_slides-sop_07_1-CQB-3.paa,rgt\images\sop_slides-sop_07_1-CQB-4.paa,rgt\images\sop_slides-sop_07_1-CQB-5.paa,rgt\images\sop_slides-sop_07_1-CQB-6.paa,rgt\images\sop_slides-sop_07_1-CQB-Rolling_T.paa,rgt\images\sop_slides-sop_07_1-CQB-Serpentine.paa,rgt\images\sop_slides-sop_07_1-Stairwell.paa";
 						};
 					};
 				};
@@ -27153,7 +27145,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="images\SOP_slides-start_screen.paa,images\SOP_slides-sop_07_2-MOUT-city_overview.paa,images\SOP_slides-sop_07_2-MOUT-phase_1.paa,images\SOP_slides-sop_07_2-MOUT-phase_2.paa,images\SOP_slides-sop_07_2-MOUT-phase_3.paa,images\SOP_slides-sop_07_2-MOUT-phase_4.paa,images\SOP_slides-sop_07_2-MOUT-phase_5.paa,images\SOP_slides-sop_07_2-MOUT-security.paa";
+							value="rgt\images\sop_slides-start_screen.paa,rgt\images\sop_slides-sop_07_2-MOUT-city_overview.paa,rgt\images\sop_slides-sop_07_2-MOUT-phase_1.paa,rgt\images\sop_slides-sop_07_2-MOUT-phase_2.paa,rgt\images\sop_slides-sop_07_2-MOUT-phase_3.paa,rgt\images\sop_slides-sop_07_2-MOUT-phase_4.paa,rgt\images\sop_slides-sop_07_2-MOUT-phase_5.paa,rgt\images\sop_slides-sop_07_2-MOUT-security.paa";
 						};
 					};
 				};
@@ -27261,7 +27253,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="images\SOP_slides-start_screen.paa,images\SOP_slides-sop_08_1-Soft_dismount_360.paa,images\SOP_slides-sop_08_1-Hard_dismount_360.paa,images\SOP_slides-sop_08_1-5-25.paa,images\SOP_slides-sop_08_1-Herringbone.paa,images\SOP_slides-sop_08_1-Coil.paa,images\SOP_slides-sop_08_1-Mounted_Patrol_Formations_-_Patrol_Line_Front.paa,images\SOP_slides-sop_08_1-Mounted_Patrol_Formations_-_Patrol_Line_Right.paa";
+							value="rgt\images\sop_slides-start_screen.paa,rgt\images\sop_slides-sop_08_1-Soft_dismount_360.paa,rgt\images\sop_slides-sop_08_1-Hard_dismount_360.paa,rgt\images\sop_slides-sop_08_1-5-25.paa,rgt\images\sop_slides-sop_08_1-Herringbone.paa,rgt\images\sop_slides-sop_08_1-Coil.paa,rgt\images\sop_slides-sop_08_1-Mounted_Patrol_Formations_-_Patrol_Line_Front.paa,rgt\images\sop_slides-sop_08_1-Mounted_Patrol_Formations_-_Patrol_Line_Right.paa";
 						};
 					};
 				};
@@ -27368,7 +27360,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="images\SOP_slides-start_screen.paa,images\SOP_slides-sop_08_2-Paradrop_-_In_the_air_-_free_fall.paa,images\SOP_slides-sop_08_2-Paradrop_-_In_the_air_-_deployed_parachute.paa,images\SOP_slides-sop_08_2-Rear_Loading_Unloading.paa,images\SOP_slides-sop_08_2-Side_Loading_Unloading.paa,images\SOP_slides-sop_08_2-Rotary_Wing_Seats_&_Sectors_1.paa,images\SOP_slides-sop_08_2-Rotary_Wing_Seats_&_Sectors_2.paa,images\SOP_slides-sop_08_2-Edge_Hover_Insertion.paa,images\SOP_slides-sop_08_2-Slope_Hovering.paa";
+							value="rgt\images\sop_slides-start_screen.paa,rgt\images\sop_slides-sop_08_2-Paradrop_-_In_the_air_-_free_fall.paa,rgt\images\sop_slides-sop_08_2-Paradrop_-_In_the_air_-_deployed_parachute.paa,rgt\images\sop_slides-sop_08_2-Rear_Loading_Unloading.paa,rgt\images\sop_slides-sop_08_2-Side_Loading_Unloading.paa,rgt\images\sop_slides-sop_08_2-Rotary_Wing_Seats_&_Sectors_1.paa,rgt\images\sop_slides-sop_08_2-Rotary_Wing_Seats_&_Sectors_2.paa,rgt\images\sop_slides-sop_08_2-Edge_Hover_Insertion.paa,rgt\images\sop_slides-sop_08_2-Slope_Hovering.paa";
 						};
 					};
 				};
@@ -27475,7 +27467,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="images\SOP_slides-start_screen.paa,images\SOP_slides-sop_09-EOD_Specialist_Loadout.paa,images\SOP_slides-sop_09-Mine_Detector_Activation.paa,images\SOP_slides-sop_09-Mine_Disarming.paa,images\SOP_slides-sop_09-Combat_Engineer_Loadout.paa,images\SOP_slides-sop_09-Prepare_&_Detonate_Explosives_1.paa,images\SOP_slides-sop_09-Prepare_&_Detonate_Explosives_2.paa,images\SOP_slides-sop_09-Prepare_&_Detonate_Explosives_3.paa,images\SOP_slides-sop_09-Prepare_&_Detonate_Explosives_4.paa";
+							value="rgt\images\sop_slides-start_screen.paa,rgt\images\sop_slides-sop_09-EOD_Specialist_Loadout.paa,rgt\images\sop_slides-sop_09-Mine_Detector_Activation.paa,rgt\images\sop_slides-sop_09-Mine_Disarming.paa,rgt\images\sop_slides-sop_09-Combat_Engineer_Loadout.paa,rgt\images\sop_slides-sop_09-Prepare_&_Detonate_Explosives_1.paa,rgt\images\sop_slides-sop_09-Prepare_&_Detonate_Explosives_2.paa,rgt\images\sop_slides-sop_09-Prepare_&_Detonate_Explosives_3.paa,rgt\images\sop_slides-sop_09-Prepare_&_Detonate_Explosives_4.paa";
 						};
 					};
 				};
@@ -27583,7 +27575,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="images\SOP_slides-start_screen.paa,images\SOP_slides-sop_14-FFP_field.paa,images\SOP_slides-sop_14-FFP_urban.paa,images\SOP_slides-sop_14-different_reticles.paa,images\SOP_slides-sop_14-milliradian.paa,images\SOP_slides-sop_14-mildot_ranging.paa,images\SOP_slides-sop_14-range_card2.paa,images\SOP_slides-sop_14-scope_adjustment.paa,images\SOP_slides-sop_14-lead.paa,images\SOP_slides-sop_14-lead_tracking.paa,images\SOP_slides-sop_14-lead_ambush2.paa,images\SOP_slides-sop_14-kestrel_4500.paa,images\SOP_slides-sop_14-sectors_of_observation.paa";
+							value="rgt\images\sop_slides-start_screen.paa,rgt\images\sop_slides-sop_14-FFP_field.paa,rgt\images\sop_slides-sop_14-FFP_urban.paa,rgt\images\sop_slides-sop_14-different_reticles.paa,rgt\images\sop_slides-sop_14-milliradian.paa,rgt\images\sop_slides-sop_14-mildot_ranging.paa,rgt\images\sop_slides-sop_14-range_card2.paa,rgt\images\sop_slides-sop_14-scope_adjustment.paa,rgt\images\sop_slides-sop_14-lead.paa,rgt\images\sop_slides-sop_14-lead_tracking.paa,rgt\images\sop_slides-sop_14-lead_ambush2.paa,rgt\images\sop_slides-sop_14-kestrel_4500.paa,rgt\images\sop_slides-sop_14-sectors_of_observation.paa";
 						};
 					};
 				};
@@ -27691,7 +27683,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="images\SOP_slides-start_screen.paa,images\SOP_slides-sop_14-ATragMX-01.paa,images\SOP_slides-sop_14-ATragMX-02.paa,images\SOP_slides-sop_14-ATragMX-03.paa,images\SOP_slides-sop_14-ATragMX-04.paa,images\SOP_slides-sop_14-ATragMX-05.paa,images\SOP_slides-sop_14-ATragMX-06.paa,images\SOP_slides-sop_14-weather_conditions.paa,images\SOP_slides-sop_14-Target_Range.paa,images\SOP_slides-sop_14-Wind_Reading.paa,images\SOP_slides-sop_14-Final_Adjustments.paa";
+							value="rgt\images\sop_slides-start_screen.paa,rgt\images\sop_slides-sop_14-ATragMX-01.paa,rgt\images\sop_slides-sop_14-ATragMX-02.paa,rgt\images\sop_slides-sop_14-ATragMX-03.paa,rgt\images\sop_slides-sop_14-ATragMX-04.paa,rgt\images\sop_slides-sop_14-ATragMX-05.paa,rgt\images\sop_slides-sop_14-ATragMX-06.paa,rgt\images\sop_slides-sop_14-weather_conditions.paa,rgt\images\sop_slides-sop_14-Target_Range.paa,rgt\images\sop_slides-sop_14-Wind_Reading.paa,rgt\images\sop_slides-sop_14-Final_Adjustments.paa";
 						};
 					};
 				};
@@ -27717,7 +27709,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={20787.955,30.120373,7151.938};
-				angles[]={0.0093286335,5.6527548,6.272521};
+				angles[]={0.0093200579,5.6527548,6.2725215};
 			};
 			name="slideshow_SOP15";
 			id=1148;
@@ -27799,7 +27791,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="images\SOP_slides-start_screen.paa,images\SOP_slides-sop_15-cas_vs_idf.paa,images\SOP_slides-sop_15-cas_flow.paa,images\SOP_slides-sop_15-keyhole_method.paa,images\SOP_slides-sop_15-game_plan.paa,images\SOP_slides-sop_15-5-line.paa";
+							value="rgt\images\sop_slides-start_screen.paa,rgt\images\sop_slides-sop_15-cas_vs_idf.paa,rgt\images\sop_slides-sop_15-cas_flow.paa,rgt\images\sop_slides-sop_15-keyhole_method.paa,rgt\images\sop_slides-sop_15-game_plan.paa,rgt\images\sop_slides-sop_15-5-line.paa";
 						};
 					};
 				};

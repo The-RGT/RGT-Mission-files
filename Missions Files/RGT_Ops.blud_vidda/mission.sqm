@@ -12,18 +12,18 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=6591;
+		nextID=6592;
 	};
 	class LayerIndexProvider
 	{
-		nextID=356;
+		nextID=466;
 	};
 	class Camera
 	{
-		pos[]={31.668474,190.18202,9826.1191};
-		dir[]={-0.022641201,-0.76687199,0.64145297};
-		up[]={-0.027050819,0.64179718,0.76639783};
-		aside[]={0.99940836,6.6759821e-07,0.035274755};
+		pos[]={111.81544,194.108,9873.5244};
+		dir[]={-0.70909393,-0.34144849,-0.61700499};
+		up[]={-0.25762266,0.93988627,-0.22416432};
+		aside[]={-0.65644932,-1.960434e-07,0.75442904};
 	};
 };
 binarizationWanted=0;
@@ -51,7 +51,6 @@ addons[]=
 	"A3_Ui_F",
 	"A3_Modules_F_Curator_Curator",
 	"ace_medical_treatment",
-	"ace_explosives",
 	"ace_slideshow",
 	"Jbad_Misc_Construction",
 	"rhs_c_weapons",
@@ -75,6 +74,7 @@ addons[]=
 	"A3_Characters_F_Exp_Vests",
 	"ace_realisticnames",
 	"A3_Weapons_F_Explosives",
+	"ace_explosives",
 	"rhsusf_c_weapons",
 	"ace_compat_rhs_usf3_scopes",
 	"USP_Gear_NVG",
@@ -88,10 +88,11 @@ addons[]=
 	"rhsgref_c_weapons",
 	"ace_trenches",
 	"TRYK_Uniform",
-	"AMP_Breaching_Charge",
+	"tsp_breach_linear",
 	"ace_grenades",
 	"ace_compat_rhs_usf3",
 	"po_factions_fic",
+	"ace_compat_rhs_usf3_hearing",
 	"rhsusf_c_RG33L",
 	"rhsusf_c_Cougar",
 	"rhsusf_c_mrzr",
@@ -301,139 +302,139 @@ class AddonsMetaData
 		};
 		class Item19
 		{
-			className="ace_explosives";
-			name="ACE3 - Explosives";
-			author="ACE-Team";
-			url="https://ace3.acemod.org/";
-		};
-		class Item20
-		{
 			className="ace_slideshow";
 			name="ACE3 - Slideshow";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item21
+		class Item20
 		{
 			className="Jbad_Misc_Construction";
 			name="Jbad_Misc_Construction";
 		};
-		class Item22
+		class Item21
 		{
 			className="rhs_c_weapons";
 			name="AFRF Weapons Pack";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item23
+		class Item22
 		{
 			className="A3_Supplies_F_Exp";
 			name="Arma 3 Apex - Ammoboxes and Supplies";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item24
+		class Item23
 		{
 			className="po_factions_eu";
 			name="po_factions_eu";
 			author="Leight, Keeway";
 		};
-		class Item25
+		class Item24
 		{
 			className="milgp_headgear_cfg";
 			name="milgp_headgear_cfg";
 		};
-		class Item26
+		class Item25
 		{
 			className="MyAddon";
 			name="ACE Compat - Military Gear Pack";
 			author="Smith";
 			url="https://steamcommunity.com/profiles/76561197990550454/";
 		};
-		class Item27
+		class Item26
 		{
 			className="ARD_Crye_Config";
 			name="ARD_Crye_Config";
 		};
-		class Item28
+		class Item27
 		{
 			className="milgp_vests_cfg";
 			name="milgp_vests_cfg";
 		};
-		class Item29
+		class Item28
 		{
 			className="ace_vector";
 			name="ACE3 - Vector";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item30
+		class Item29
 		{
 			className="A3_Characters_F_Exp";
 			name="Arma 3 Apex - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item31
+		class Item30
 		{
 			className="ace_attach";
 			name="ACE3 - Attach";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item32
+		class Item31
 		{
 			className="ace_chemlights";
-			name="ace_chemlights";
+			name="ACE3 - Chemlights";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item33
+		class Item32
 		{
 			className="ace_hearing";
 			name="ACE3 - Hearing";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item34
+		class Item33
 		{
 			className="ace_flashlights";
 			name="ACE3 - Flashlights";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item35
+		class Item34
 		{
 			className="ace_maptools";
 			name="ACE3 - Map Tools";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item36
+		class Item35
 		{
 			className="ace_atragmx";
 			name="ACE3 - ATragMX";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item37
+		class Item36
 		{
 			className="ace_kestrel4500";
 			name="ACE3 - Kestrel 4500";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item38
+		class Item37
 		{
 			className="ace_rangecard";
 			name="ACE3 - Range Card";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item39
+		class Item38
 		{
 			className="ace_microdagr";
 			name="ACE3 - MicroDAGR";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
+		class Item39
+		{
+			className="ace_explosives";
+			name="ACE3 - Explosives";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
@@ -518,9 +519,8 @@ class AddonsMetaData
 		};
 		class Item52
 		{
-			className="AMP_Breaching_Charge";
-			name="bcdw - main";
-			author="Ampersand";
+			className="tsp_breach_linear";
+			name="tsp_breach_linear";
 		};
 		class Item53
 		{
@@ -3458,7 +3458,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={104.75909,191.3468,9866.5957};
+						position[]={104.759,191.3468,9866.5957};
 						angles[]={0,4.4667339,0};
 					};
 					side="Empty";
@@ -3466,7 +3466,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="call{this forceFlagTexture ""images\flag_pole_texture-regiment_only_skull.paa"";}";
+						init="call{this forceFlagTexture ""RGT\images\flag_pole_texture-regiment_only_skull.paa"";}";
 					};
 					id=45;
 					type="Flag_NATO_F";
@@ -3476,15 +3476,15 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={105.85228,191.3468,9902.3564};
-						angles[]={0,1.3982587,0};
+						position[]={105.852,191.3468,9902.3564};
+						angles[]={0,1.3982531,0};
 					};
 					side="Empty";
 					flags=4;
 					class Attributes
 					{
 						skill=0.2;
-						init="call{this forceFlagTexture ""images\flag_pole_texture-regiment_only_skull.paa"";}";
+						init="call{this forceFlagTexture ""RGT\images\flag_pole_texture-regiment_only_skull.paa"";}";
 					};
 					id=5139;
 					type="Flag_NATO_F";
@@ -3576,7 +3576,7 @@ class Mission
 				class Attribute1
 				{
 					property="ace_refuel_fuelCargo";
-					expression="if (_value != (if (isNumber (configOf _this >> ""ace_refuel_fuelCargo"")) then {getNumber (configOf _this >> ""ace_refuel_fuelCargo"")} else {-1})) then {[_this, _value] call ace_refuel_fnc_makeSource}";
+					expression="if (_value != (_this call ace_refuel_fnc_getFuelCargo)) then {[_this, _value] call ace_refuel_fnc_makeSource}";
 					class Value
 					{
 						class data
@@ -4182,7 +4182,7 @@ class Mission
 				class Attribute1
 				{
 					property="ENH_HoldAction";
-					expression="      _value params ['_name', '_iconIdle', '_iconProgress', '_conditionShow', '_conditionProgress', '_codeStart', '_codeProgress', '_codeCompletion', '_codeInterrupt', '_duration', '_priority', '_showUnconscious', '_showWindow'];      if (!is3DEN && !(_name isEqualTo '')) then      {        [          _this,          _name,          _iconIdle,          _iconProgress,          _conditionShow,          _conditionProgress,          compile _codeStart,          compile _codeProgress,          compile format ['%1 %2', '[_this select 0, _this select 2] remoteExecCall [''removeAction'', 0]; remoteExecCall ['''', _this select 0];', _codeCompletion],          compile _codeInterrupt,          nil,          _duration,          _priority,          true,          _showUnconscious,          _showWindow        ] remoteExecCall ['BIS_fnc_holdActionAdd', 0, _this];      };";
+					expression="            _value params ['_name', '_iconIdle', '_iconProgress', '_conditionShow', '_conditionProgress', '_codeStart', '_codeProgress', '_codeCompletion', '_codeInterrupt', '_duration', '_priority', '_showUnconscious', '_showWindow'];            if (!is3DEN && (_name != '')) then            {                [                    _this,                    _name,                    _iconIdle,                    _iconProgress,                    _conditionShow,                    _conditionProgress,                    compile _codeStart,                    compile _codeProgress,                    compile format ['%1 %2', '[_this select 0, _this select 2] remoteExecCall [''removeAction'', 0]; remoteExecCall ['''', _this select 0];', _codeCompletion],                    compile _codeInterrupt,                    nil,                    _duration,                    _priority,                    true,                    _showUnconscious,                    _showWindow                ] remoteExecCall ['BIS_fnc_holdActionAdd', 0, _this];            };";
 					class Value
 					{
 						class data
@@ -4470,40 +4470,6 @@ class Mission
 		};
 		class Item31
 		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={127.79033,187.8588,9872.3047};
-				angles[]={0,0.10966501,0};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=82;
-			type="Box_NATO_AmmoOrd_F";
-			atlOffset=0.20474243;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ammoBox";
-					expression="[_this,_value] call bis_fnc_initAmmoBox;";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="[[[[],[]],[[""ATMine_Range_Mag"",""APERSMine_Range_Mag"",""APERSBoundingMine_Range_Mag"",""SLAMDirectionalMine_Wire_Mag"",""APERSTripMine_Wire_Mag"",""ClaymoreDirectionalMine_Remote_Mag"",""DemoCharge_Remote_Mag"",""SatchelCharge_Remote_Mag"",""tsp_breach_linear_mag""],[5,5,5,5,5,5,10,10,20]],[[""ACE_Clacker"",""ACE_DefusalKit""],[5,1]],[[],[]]],false]";
-						};
-					};
-				};
-				nAttributes=1;
-			};
-		};
-		class Item32
-		{
 			dataType="Logic";
 			class PositionInfo
 			{
@@ -4590,7 +4556,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="images\SOP_slides-start_screen.paa,images\SOP_slides-sop_03-Map_Overview.paa,images\SOP_slides-sop_03-Navigational_Equipment.paa,images\SOP_slides-sop_03-Reading_a_Grid.paa,images\SOP_slides-sop_03-8-Grid.paa";
+							value="rgt\images\sop_slides-start_screen.paa,rgt\images\sop_slides-sop_03-Map_Overview.paa,rgt\images\sop_slides-sop_03-Navigational_Equipment.paa,rgt\images\sop_slides-sop_03-Reading_a_Grid.paa,rgt\images\sop_slides-sop_03-8-Grid.paa";
 						};
 					};
 				};
@@ -4610,7 +4576,7 @@ class Mission
 				nAttributes=7;
 			};
 		};
-		class Item33
+		class Item32
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -4698,7 +4664,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="images\SOP_slides-start_screen.paa,images\SOP_slides-sop_04-Spacing.paa,images\SOP_slides-sop_04-Formations.paa,images\SOP_slides-sop_04-Bounding_&_Overwatch.paa,images\SOP_slides-sop_04-Pepper_Potting.paa,images\SOP_slides-sop_04-Peeling_Sideways.paa,images\SOP_slides-sop_04-Peeling_Backwards.paa,images\SOP_slides-sop_04-Roadcrossing_01.paa,images\SOP_slides-sop_04-Roadcrossing_02.paa,images\SOP_slides-sop_04-Roadcrossing_03.paa,images\SOP_slides-sop_04-Roadcrossing_04.paa,images\SOP_slides-sop_04-Roadcrossing_05.paa,images\SOP_slides-sop_04-Roadcrossing_06.paa";
+							value="rgt\images\sop_slides-start_screen.paa,rgt\images\sop_slides-sop_04-Spacing.paa,rgt\images\sop_slides-sop_04-Formations.paa,rgt\images\sop_slides-sop_04-Bounding_&_Overwatch.paa,rgt\images\sop_slides-sop_04-Pepper_Potting.paa,rgt\images\sop_slides-sop_04-Peeling_Sideways.paa,rgt\images\sop_slides-sop_04-Peeling_Backwards.paa,rgt\images\sop_slides-sop_04-Roadcrossing_01.paa,rgt\images\sop_slides-sop_04-Roadcrossing_02.paa,rgt\images\sop_slides-sop_04-Roadcrossing_03.paa,rgt\images\sop_slides-sop_04-Roadcrossing_04.paa,rgt\images\sop_slides-sop_04-Roadcrossing_05.paa,rgt\images\sop_slides-sop_04-Roadcrossing_06.paa";
 						};
 					};
 				};
@@ -4718,7 +4684,7 @@ class Mission
 				nAttributes=7;
 			};
 		};
-		class Item34
+		class Item33
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -4806,7 +4772,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="images\SOP_slides-start_screen.paa,images\SOP_slides-sop_05-short_range_radio.paa,images\SOP_slides-sop_05-long_range_radio.paa";
+							value="rgt\images\sop_slides-start_screen.paa,rgt\images\sop_slides-sop_05-short_range_radio.paa,rgt\images\sop_slides-sop_05-long_range_radio.paa";
 						};
 					};
 				};
@@ -4826,7 +4792,7 @@ class Mission
 				nAttributes=7;
 			};
 		};
-		class Item35
+		class Item34
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -4914,7 +4880,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="images\SOP_slides-start_screen.paa,images\SOP_slides-sop_07_1-CQB-1.paa,images\SOP_slides-sop_07_1-CQB-2.paa,images\SOP_slides-sop_07_1-CQB-3.paa,images\SOP_slides-sop_07_1-CQB-4.paa,images\SOP_slides-sop_07_1-CQB-5.paa,images\SOP_slides-sop_07_1-CQB-6.paa,images\SOP_slides-sop_07_1-CQB-Rolling_T.paa,images\SOP_slides-sop_07_1-CQB-Serpentine.paa,images\SOP_slides-sop_07_1-Stairwell.paa";
+							value="rgt\images\sop_slides-start_screen.paa,rgt\images\sop_slides-sop_07_1-CQB-1.paa,rgt\images\sop_slides-sop_07_1-CQB-2.paa,rgt\images\sop_slides-sop_07_1-CQB-3.paa,rgt\images\sop_slides-sop_07_1-CQB-4.paa,rgt\images\sop_slides-sop_07_1-CQB-5.paa,rgt\images\sop_slides-sop_07_1-CQB-6.paa,rgt\images\sop_slides-sop_07_1-CQB-Rolling_T.paa,rgt\images\sop_slides-sop_07_1-CQB-Serpentine.paa,rgt\images\sop_slides-sop_07_1-Stairwell.paa";
 						};
 					};
 				};
@@ -4934,7 +4900,7 @@ class Mission
 				nAttributes=7;
 			};
 		};
-		class Item36
+		class Item35
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -5022,7 +4988,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="images\SOP_slides-start_screen.paa,images\SOP_slides-sop_07_2-MOUT-city_overview.paa,images\SOP_slides-sop_07_2-MOUT-phase_1.paa,images\SOP_slides-sop_07_2-MOUT-phase_2.paa,images\SOP_slides-sop_07_2-MOUT-phase_3.paa,images\SOP_slides-sop_07_2-MOUT-phase_4.paa,images\SOP_slides-sop_07_2-MOUT-phase_5.paa,images\SOP_slides-sop_07_2-MOUT-security.paa";
+							value="rgt\images\sop_slides-start_screen.paa,rgt\images\sop_slides-sop_07_2-MOUT-city_overview.paa,rgt\images\sop_slides-sop_07_2-MOUT-phase_1.paa,rgt\images\sop_slides-sop_07_2-MOUT-phase_2.paa,rgt\images\sop_slides-sop_07_2-MOUT-phase_3.paa,rgt\images\sop_slides-sop_07_2-MOUT-phase_4.paa,rgt\images\sop_slides-sop_07_2-MOUT-phase_5.paa,rgt\images\sop_slides-sop_07_2-MOUT-security.paa";
 						};
 					};
 				};
@@ -5042,7 +5008,7 @@ class Mission
 				nAttributes=7;
 			};
 		};
-		class Item37
+		class Item36
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -5130,7 +5096,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="images\SOP_slides-start_screen.paa,images\SOP_slides-sop_08_1-Soft_dismount_360.paa,images\SOP_slides-sop_08_1-Hard_dismount_360.paa,images\SOP_slides-sop_08_1-5-25.paa,images\SOP_slides-sop_08_1-Herringbone.paa,images\SOP_slides-sop_08_1-Coil.paa,images\SOP_slides-sop_08_1-Mounted_Patrol_Formations_-_Patrol_Line_Front.paa,images\SOP_slides-sop_08_1-Mounted_Patrol_Formations_-_Patrol_Line_Right.paa";
+							value="rgt\images\sop_slides-start_screen.paa,rgt\images\sop_slides-sop_08_1-Soft_dismount_360.paa,rgt\images\sop_slides-sop_08_1-Hard_dismount_360.paa,rgt\images\sop_slides-sop_08_1-5-25.paa,rgt\images\sop_slides-sop_08_1-Herringbone.paa,rgt\images\sop_slides-sop_08_1-Coil.paa,rgt\images\sop_slides-sop_08_1-Mounted_Patrol_Formations_-_Patrol_Line_Front.paa,rgt\images\sop_slides-sop_08_1-Mounted_Patrol_Formations_-_Patrol_Line_Right.paa";
 						};
 					};
 				};
@@ -5150,7 +5116,7 @@ class Mission
 				nAttributes=7;
 			};
 		};
-		class Item38
+		class Item37
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -5237,7 +5203,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="images\SOP_slides-start_screen.paa,images\SOP_slides-sop_08_2-Paradrop_-_In_the_air_-_free_fall.paa,images\SOP_slides-sop_08_2-Paradrop_-_In_the_air_-_deployed_parachute.paa,images\SOP_slides-sop_08_2-Rear_Loading_Unloading.paa,images\SOP_slides-sop_08_2-Side_Loading_Unloading.paa,images\SOP_slides-sop_08_2-Rotary_Wing_Seats_&_Sectors_1.paa,images\SOP_slides-sop_08_2-Rotary_Wing_Seats_&_Sectors_2.paa,images\SOP_slides-sop_08_2-Edge_Hover_Insertion.paa,images\SOP_slides-sop_08_2-Slope_Hovering.paa";
+							value="rgt\images\sop_slides-start_screen.paa,rgt\images\sop_slides-sop_08_2-Paradrop_-_In_the_air_-_free_fall.paa,rgt\images\sop_slides-sop_08_2-Paradrop_-_In_the_air_-_deployed_parachute.paa,rgt\images\sop_slides-sop_08_2-Rear_Loading_Unloading.paa,rgt\images\sop_slides-sop_08_2-Side_Loading_Unloading.paa,rgt\images\sop_slides-sop_08_2-Rotary_Wing_Seats_&_Sectors_1.paa,rgt\images\sop_slides-sop_08_2-Rotary_Wing_Seats_&_Sectors_2.paa,rgt\images\sop_slides-sop_08_2-Edge_Hover_Insertion.paa,rgt\images\sop_slides-sop_08_2-Slope_Hovering.paa";
 						};
 					};
 				};
@@ -5257,7 +5223,7 @@ class Mission
 				nAttributes=7;
 			};
 		};
-		class Item39
+		class Item38
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -5344,7 +5310,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="images\SOP_slides-start_screen.paa,images\SOP_slides-sop_09-EOD_Specialist_Loadout.paa,images\SOP_slides-sop_09-Mine_Detector_Activation.paa,images\SOP_slides-sop_09-Mine_Disarming.paa,images\SOP_slides-sop_09-Combat_Engineer_Loadout.paa,images\SOP_slides-sop_09-Prepare_&_Detonate_Explosives_1.paa,images\SOP_slides-sop_09-Prepare_&_Detonate_Explosives_2.paa,images\SOP_slides-sop_09-Prepare_&_Detonate_Explosives_3.paa,images\SOP_slides-sop_09-Prepare_&_Detonate_Explosives_4.paa";
+							value="rgt\images\sop_slides-start_screen.paa,rgt\images\sop_slides-sop_09-EOD_Specialist_Loadout.paa,rgt\images\sop_slides-sop_09-Mine_Detector_Activation.paa,rgt\images\sop_slides-sop_09-Mine_Disarming.paa,rgt\images\sop_slides-sop_09-Combat_Engineer_Loadout.paa,rgt\images\sop_slides-sop_09-Prepare_&_Detonate_Explosives_1.paa,rgt\images\sop_slides-sop_09-Prepare_&_Detonate_Explosives_2.paa,rgt\images\sop_slides-sop_09-Prepare_&_Detonate_Explosives_3.paa,rgt\images\sop_slides-sop_09-Prepare_&_Detonate_Explosives_4.paa";
 						};
 					};
 				};
@@ -5364,7 +5330,7 @@ class Mission
 				nAttributes=7;
 			};
 		};
-		class Item40
+		class Item39
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -5452,7 +5418,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="images\SOP_slides-start_screen.paa,images\SOP_slides-sop_14-FFP_field.paa,images\SOP_slides-sop_14-FFP_urban.paa,images\SOP_slides-sop_14-different_reticles.paa,images\SOP_slides-sop_14-milliradian.paa,images\SOP_slides-sop_14-mildot_ranging.paa,images\SOP_slides-sop_14-range_card2.paa,images\SOP_slides-sop_14-scope_adjustment.paa,images\SOP_slides-sop_14-lead.paa,images\SOP_slides-sop_14-lead_tracking.paa,images\SOP_slides-sop_14-lead_ambush2.paa,images\SOP_slides-sop_14-kestrel_4500.paa,images\SOP_slides-sop_14-sectors_of_observation.paa";
+							value="rgt\images\sop_slides-start_screen.paa,rgt\images\sop_slides-sop_14-FFP_field.paa,rgt\images\sop_slides-sop_14-FFP_urban.paa,rgt\images\sop_slides-sop_14-different_reticles.paa,rgt\images\sop_slides-sop_14-milliradian.paa,rgt\images\sop_slides-sop_14-mildot_ranging.paa,rgt\images\sop_slides-sop_14-range_card2.paa,rgt\images\sop_slides-sop_14-scope_adjustment.paa,rgt\images\sop_slides-sop_14-lead.paa,rgt\images\sop_slides-sop_14-lead_tracking.paa,rgt\images\sop_slides-sop_14-lead_ambush2.paa,rgt\images\sop_slides-sop_14-kestrel_4500.paa,rgt\images\sop_slides-sop_14-sectors_of_observation.paa";
 						};
 					};
 				};
@@ -5472,7 +5438,7 @@ class Mission
 				nAttributes=7;
 			};
 		};
-		class Item41
+		class Item40
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -5559,7 +5525,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="images\SOP_slides-start_screen.paa,images\SOP_slides-sop_14-ATragMX-01.paa,images\SOP_slides-sop_14-ATragMX-02.paa,images\SOP_slides-sop_14-ATragMX-03.paa,images\SOP_slides-sop_14-ATragMX-04.paa,images\SOP_slides-sop_14-ATragMX-05.paa,images\SOP_slides-sop_14-ATragMX-06.paa,images\SOP_slides-sop_14-weather_conditions.paa,images\SOP_slides-sop_14-Target_Range.paa,images\SOP_slides-sop_14-Wind_Reading.paa,images\SOP_slides-sop_14-Final_Adjustments.paa";
+							value="rgt\images\sop_slides-start_screen.paa,rgt\images\sop_slides-sop_14-ATragMX-01.paa,rgt\images\sop_slides-sop_14-ATragMX-02.paa,rgt\images\sop_slides-sop_14-ATragMX-03.paa,rgt\images\sop_slides-sop_14-ATragMX-04.paa,rgt\images\sop_slides-sop_14-ATragMX-05.paa,rgt\images\sop_slides-sop_14-ATragMX-06.paa,rgt\images\sop_slides-sop_14-weather_conditions.paa,rgt\images\sop_slides-sop_14-Target_Range.paa,rgt\images\sop_slides-sop_14-Wind_Reading.paa,rgt\images\sop_slides-sop_14-Final_Adjustments.paa";
 						};
 					};
 				};
@@ -5579,7 +5545,7 @@ class Mission
 				nAttributes=7;
 			};
 		};
-		class Item42
+		class Item41
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -5666,7 +5632,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="images\SOP_slides-start_screen.paa,images\SOP_slides-sop_15-cas_vs_idf.paa,images\SOP_slides-sop_15-cas_flow.paa,images\SOP_slides-sop_15-keyhole_method.paa,images\SOP_slides-sop_15-game_plan.paa,images\SOP_slides-sop_15-5-line.paa";
+							value="rgt\images\sop_slides-start_screen.paa,rgt\images\sop_slides-sop_15-cas_vs_idf.paa,rgt\images\sop_slides-sop_15-cas_flow.paa,rgt\images\sop_slides-sop_15-keyhole_method.paa,rgt\images\sop_slides-sop_15-game_plan.paa,rgt\images\sop_slides-sop_15-5-line.paa";
 						};
 					};
 				};
@@ -5686,7 +5652,7 @@ class Mission
 				nAttributes=7;
 			};
 		};
-		class Item43
+		class Item42
 		{
 			dataType="Object";
 			class PositionInfo
@@ -5702,7 +5668,7 @@ class Mission
 			id=100;
 			type="jbad_paletaA";
 		};
-		class Item44
+		class Item43
 		{
 			dataType="Object";
 			class PositionInfo
@@ -5735,7 +5701,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item45
+		class Item44
 		{
 			dataType="Object";
 			class PositionInfo
@@ -5770,7 +5736,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item46
+		class Item45
 		{
 			dataType="Object";
 			class PositionInfo
@@ -5805,7 +5771,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item47
+		class Item46
 		{
 			dataType="Group";
 			side="Civilian";
@@ -5941,7 +5907,7 @@ class Mission
 			id=104;
 			atlOffset=0.0015411377;
 		};
-		class Item48
+		class Item47
 		{
 			dataType="Group";
 			side="Civilian";
@@ -6211,7 +6177,7 @@ class Mission
 			id=106;
 			atlOffset=0.0035705566;
 		};
-		class Item49
+		class Item48
 		{
 			dataType="Group";
 			side="Civilian";
@@ -6391,7 +6357,7 @@ class Mission
 			};
 			id=108;
 		};
-		class Item50
+		class Item49
 		{
 			dataType="Group";
 			side="Civilian";
@@ -6616,7 +6582,7 @@ class Mission
 			};
 			id=110;
 		};
-		class Item51
+		class Item50
 		{
 			dataType="Group";
 			side="Civilian";
@@ -6873,7 +6839,7 @@ class Mission
 			id=112;
 			atlOffset=0.65763855;
 		};
-		class Item52
+		class Item51
 		{
 			dataType="Group";
 			side="Civilian";
@@ -7075,7 +7041,7 @@ class Mission
 			id=114;
 			atlOffset=0.65763855;
 		};
-		class Item53
+		class Item52
 		{
 			dataType="Group";
 			side="Civilian";
@@ -7266,7 +7232,7 @@ class Mission
 			id=116;
 			atlOffset=0.65763855;
 		};
-		class Item54
+		class Item53
 		{
 			dataType="Group";
 			side="Civilian";
@@ -7495,7 +7461,7 @@ class Mission
 			id=118;
 			atlOffset=0.65763855;
 		};
-		class Item55
+		class Item54
 		{
 			dataType="Group";
 			side="Civilian";
@@ -7691,7 +7657,7 @@ class Mission
 			};
 			id=120;
 		};
-		class Item56
+		class Item55
 		{
 			dataType="Group";
 			side="Civilian";
@@ -7955,7 +7921,7 @@ class Mission
 			id=122;
 			atlOffset=0.65763855;
 		};
-		class Item57
+		class Item56
 		{
 			dataType="Group";
 			side="Civilian";
@@ -8159,7 +8125,7 @@ class Mission
 			id=124;
 			atlOffset=0.66235352;
 		};
-		class Item58
+		class Item57
 		{
 			dataType="Group";
 			side="Civilian";
@@ -8287,7 +8253,7 @@ class Mission
 			id=126;
 			atlOffset=0.65763855;
 		};
-		class Item59
+		class Item58
 		{
 			dataType="Group";
 			side="Civilian";
@@ -8491,7 +8457,7 @@ class Mission
 			id=128;
 			atlOffset=0.65763855;
 		};
-		class Item60
+		class Item59
 		{
 			dataType="Group";
 			side="Civilian";
@@ -8625,7 +8591,7 @@ class Mission
 			};
 			id=130;
 		};
-		class Item61
+		class Item60
 		{
 			dataType="Group";
 			side="Civilian";
@@ -8827,7 +8793,7 @@ class Mission
 			};
 			id=132;
 		};
-		class Item62
+		class Item61
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8927,7 +8893,7 @@ class Mission
 				nAttributes=3;
 			};
 		};
-		class Item63
+		class Item62
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8951,7 +8917,7 @@ class Mission
 				class Attribute0
 				{
 					property="ENH_HoldAction";
-					expression="      _value params ['_name', '_iconIdle', '_iconProgress', '_conditionShow', '_conditionProgress', '_codeStart', '_codeProgress', '_codeCompletion', '_codeInterrupt', '_duration', '_priority', '_showUnconscious', '_showWindow'];      if (!is3DEN && !(_name isEqualTo '')) then      {        [          _this,          _name,          _iconIdle,          _iconProgress,          _conditionShow,          _conditionProgress,          compile _codeStart,          compile _codeProgress,          compile format ['%1 %2', '[_this select 0, _this select 2] remoteExecCall [''removeAction'', 0]; remoteExecCall ['''', _this select 0];', _codeCompletion],          compile _codeInterrupt,          nil,          _duration,          _priority,          true,          _showUnconscious,          _showWindow        ] remoteExecCall ['BIS_fnc_holdActionAdd', 0, _this];      };";
+					expression="            _value params ['_name', '_iconIdle', '_iconProgress', '_conditionShow', '_conditionProgress', '_codeStart', '_codeProgress', '_codeCompletion', '_codeInterrupt', '_duration', '_priority', '_showUnconscious', '_showWindow'];            if (!is3DEN && (_name != '')) then            {                [                    _this,                    _name,                    _iconIdle,                    _iconProgress,                    _conditionShow,                    _conditionProgress,                    compile _codeStart,                    compile _codeProgress,                    compile format ['%1 %2', '[_this select 0, _this select 2] remoteExecCall [''removeAction'', 0]; remoteExecCall ['''', _this select 0];', _codeCompletion],                    compile _codeInterrupt,                    nil,                    _duration,                    _priority,                    true,                    _showUnconscious,                    _showWindow                ] remoteExecCall ['BIS_fnc_holdActionAdd', 0, _this];            };";
 					class Value
 					{
 						class data
@@ -9147,7 +9113,7 @@ class Mission
 				nAttributes=4;
 			};
 		};
-		class Item64
+		class Item63
 		{
 			dataType="Object";
 			class PositionInfo
@@ -9315,7 +9281,7 @@ class Mission
 				nAttributes=7;
 			};
 		};
-		class Item65
+		class Item64
 		{
 			dataType="Object";
 			class PositionInfo
@@ -9483,7 +9449,7 @@ class Mission
 				nAttributes=7;
 			};
 		};
-		class Item66
+		class Item65
 		{
 			dataType="Object";
 			class PositionInfo
@@ -9599,7 +9565,7 @@ class Mission
 				nAttributes=3;
 			};
 		};
-		class Item67
+		class Item66
 		{
 			dataType="Object";
 			class PositionInfo
@@ -9714,7 +9680,7 @@ class Mission
 				nAttributes=3;
 			};
 		};
-		class Item68
+		class Item67
 		{
 			dataType="Object";
 			class PositionInfo
@@ -9739,7 +9705,236 @@ class Mission
 				class Attribute0
 				{
 					property="ENH_HoldAction";
-					expression="      _value params ['_name', '_iconIdle', '_iconProgress', '_conditionShow', '_conditionProgress', '_codeStart', '_codeProgress', '_codeCompletion', '_codeInterrupt', '_duration', '_priority', '_showUnconscious', '_showWindow'];      if (!is3DEN && !(_name isEqualTo '')) then      {        [          _this,          _name,          _iconIdle,          _iconProgress,          _conditionShow,          _conditionProgress,          compile _codeStart,          compile _codeProgress,          compile format ['%1 %2', '[_this select 0, _this select 2] remoteExecCall [''removeAction'', 0]; remoteExecCall ['''', _this select 0];', _codeCompletion],          compile _codeInterrupt,          nil,          _duration,          _priority,          true,          _showUnconscious,          _showWindow        ] remoteExecCall ['BIS_fnc_holdActionAdd', 0, _this];      };";
+					expression="            _value params ['_name', '_iconIdle', '_iconProgress', '_conditionShow', '_conditionProgress', '_codeStart', '_codeProgress', '_codeCompletion', '_codeInterrupt', '_duration', '_priority', '_showUnconscious', '_showWindow'];            if (!is3DEN && (_name != '')) then            {                [                    _this,                    _name,                    _iconIdle,                    _iconProgress,                    _conditionShow,                    _conditionProgress,                    compile _codeStart,                    compile _codeProgress,                    compile format ['%1 %2', '[_this select 0, _this select 2] remoteExecCall [''removeAction'', 0]; remoteExecCall ['''', _this select 0];', _codeCompletion],                    compile _codeInterrupt,                    nil,                    _duration,                    _priority,                    true,                    _showUnconscious,                    _showWindow                ] remoteExecCall ['BIS_fnc_holdActionAdd', 0, _this];            };";
+					class Value
+					{
+						class data
+						{
+							singleType="ARRAY";
+							class value
+							{
+								items=14;
+								class Item0
+								{
+									class data
+									{
+										singleType="STRING";
+										value="";
+									};
+								};
+								class Item1
+								{
+									class data
+									{
+										singleType="STRING";
+										value="\a3\ui_f\data\igui\cfg\holdactions\holdaction_revive_ca.paa";
+									};
+								};
+								class Item2
+								{
+									class data
+									{
+										singleType="STRING";
+										value="\a3\ui_f\data\igui\cfg\holdactions\holdaction_revive_ca.paa";
+									};
+								};
+								class Item3
+								{
+									class data
+									{
+										singleType="STRING";
+										value="true";
+									};
+								};
+								class Item4
+								{
+									class data
+									{
+										singleType="STRING";
+										value="true";
+									};
+								};
+								class Item5
+								{
+									class data
+									{
+										singleType="STRING";
+										value="";
+									};
+								};
+								class Item6
+								{
+									class data
+									{
+										singleType="STRING";
+										value="";
+									};
+								};
+								class Item7
+								{
+									class data
+									{
+										singleType="STRING";
+										value="";
+									};
+								};
+								class Item8
+								{
+									class data
+									{
+										singleType="STRING";
+										value="";
+									};
+								};
+								class Item9
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=10;
+									};
+								};
+								class Item10
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=1000;
+									};
+								};
+								class Item11
+								{
+									class data
+									{
+										singleType="BOOL";
+										value=0;
+									};
+								};
+								class Item12
+								{
+									class data
+									{
+										singleType="BOOL";
+										value=1;
+									};
+								};
+								class Item13
+								{
+									class data
+									{
+										singleType="STRING";
+										value="";
+									};
+								};
+							};
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="VehicleCustomization";
+					expression="if (local _this) then {([_this] + _value + [true]) call (uinamespace getvariable 'BIS_fnc_initVehicle')};";
+					class Value
+					{
+						class data
+						{
+							singleType="ARRAY";
+							class value
+							{
+								items=2;
+								class Item0
+								{
+									class data
+									{
+										singleType="ARRAY";
+									};
+								};
+								class Item1
+								{
+									class data
+									{
+										singleType="ARRAY";
+										class value
+										{
+											items=2;
+											class Item0
+											{
+												class data
+												{
+													singleType="STRING";
+													value="hide_spare";
+												};
+											};
+											class Item1
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0;
+												};
+											};
+										};
+									};
+								};
+							};
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="[[[[""rhs_weap_M136"",""rhs_weap_m4a1""],[10,5]],[[""rhsusf_100Rnd_762x51_m62_tracer"",""rhs_mag_30Rnd_556x45_Mk262_Stanag"",""ACE_20Rnd_762x51_Mk316_Mod_0_Mag"",""rhs_mag_an_m8hc"",""tsp_breach_linear_mag"",""rhs_mag_maaws_HEAT"",""B_IR_Grenade"",""DemoCharge_Remote_Mag"",""ACE_HandFlare_Red"",""SmokeShellOrange"",""SmokeShellPurple"",""SatchelCharge_Remote_Mag"",""rhs_mag_M441_HE"",""HandGrenade"",""ACE_M84"",""rhsusf_100Rnd_556x45_mixed_soft_pouch""],[15,40,20,10,5,10,5,5,5,5,5,5,25,10,5,15]],[[""ACE_elasticBandage"",""ACE_bloodIV_500"",""ACE_bodyBag"",""ACE_DefusalKit"",""ACE_EarPlugs"",""ACE_epinephrine"",""ACE_morphine""],[25,10,5,5,5,10,10]],[[],[]]],false]";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ace_isMedicalVehicle";
+					expression="_this setVariable [""ace_medical_isMedicalVehicle"", _value, true]";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=1;
+						};
+					};
+				};
+				nAttributes=4;
+			};
+		};
+		class Item68
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={67.357422,190.13748,9872.2949};
+				angles[]={0,3.2498772,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				textures="rhs_woodland";
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
+			};
+			id=143;
+			type="rhsusf_m1240a1_m2_usarmy_wd";
+			atlOffset=-0.17088318;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ENH_HoldAction";
+					expression="            _value params ['_name', '_iconIdle', '_iconProgress', '_conditionShow', '_conditionProgress', '_codeStart', '_codeProgress', '_codeCompletion', '_codeInterrupt', '_duration', '_priority', '_showUnconscious', '_showWindow'];            if (!is3DEN && (_name != '')) then            {                [                    _this,                    _name,                    _iconIdle,                    _iconProgress,                    _conditionShow,                    _conditionProgress,                    compile _codeStart,                    compile _codeProgress,                    compile format ['%1 %2', '[_this select 0, _this select 2] remoteExecCall [''removeAction'', 0]; remoteExecCall ['''', _this select 0];', _codeCompletion],                    compile _codeInterrupt,                    nil,                    _duration,                    _priority,                    true,                    _showUnconscious,                    _showWindow                ] remoteExecCall ['BIS_fnc_holdActionAdd', 0, _this];            };";
 					class Value
 					{
 						class data
@@ -9948,235 +10143,6 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={67.357422,190.13748,9872.2949};
-				angles[]={0,3.2498772,0};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				textures="rhs_woodland";
-				reportRemoteTargets=1;
-				receiveRemoteTargets=1;
-				reportOwnPosition=1;
-			};
-			id=143;
-			type="rhsusf_m1240a1_m2_usarmy_wd";
-			atlOffset=-0.17088318;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ENH_HoldAction";
-					expression="      _value params ['_name', '_iconIdle', '_iconProgress', '_conditionShow', '_conditionProgress', '_codeStart', '_codeProgress', '_codeCompletion', '_codeInterrupt', '_duration', '_priority', '_showUnconscious', '_showWindow'];      if (!is3DEN && !(_name isEqualTo '')) then      {        [          _this,          _name,          _iconIdle,          _iconProgress,          _conditionShow,          _conditionProgress,          compile _codeStart,          compile _codeProgress,          compile format ['%1 %2', '[_this select 0, _this select 2] remoteExecCall [''removeAction'', 0]; remoteExecCall ['''', _this select 0];', _codeCompletion],          compile _codeInterrupt,          nil,          _duration,          _priority,          true,          _showUnconscious,          _showWindow        ] remoteExecCall ['BIS_fnc_holdActionAdd', 0, _this];      };";
-					class Value
-					{
-						class data
-						{
-							singleType="ARRAY";
-							class value
-							{
-								items=14;
-								class Item0
-								{
-									class data
-									{
-										singleType="STRING";
-										value="";
-									};
-								};
-								class Item1
-								{
-									class data
-									{
-										singleType="STRING";
-										value="\a3\ui_f\data\igui\cfg\holdactions\holdaction_revive_ca.paa";
-									};
-								};
-								class Item2
-								{
-									class data
-									{
-										singleType="STRING";
-										value="\a3\ui_f\data\igui\cfg\holdactions\holdaction_revive_ca.paa";
-									};
-								};
-								class Item3
-								{
-									class data
-									{
-										singleType="STRING";
-										value="true";
-									};
-								};
-								class Item4
-								{
-									class data
-									{
-										singleType="STRING";
-										value="true";
-									};
-								};
-								class Item5
-								{
-									class data
-									{
-										singleType="STRING";
-										value="";
-									};
-								};
-								class Item6
-								{
-									class data
-									{
-										singleType="STRING";
-										value="";
-									};
-								};
-								class Item7
-								{
-									class data
-									{
-										singleType="STRING";
-										value="";
-									};
-								};
-								class Item8
-								{
-									class data
-									{
-										singleType="STRING";
-										value="";
-									};
-								};
-								class Item9
-								{
-									class data
-									{
-										singleType="SCALAR";
-										value=10;
-									};
-								};
-								class Item10
-								{
-									class data
-									{
-										singleType="SCALAR";
-										value=1000;
-									};
-								};
-								class Item11
-								{
-									class data
-									{
-										singleType="BOOL";
-										value=0;
-									};
-								};
-								class Item12
-								{
-									class data
-									{
-										singleType="BOOL";
-										value=1;
-									};
-								};
-								class Item13
-								{
-									class data
-									{
-										singleType="STRING";
-										value="";
-									};
-								};
-							};
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="VehicleCustomization";
-					expression="if (local _this) then {([_this] + _value + [true]) call (uinamespace getvariable 'BIS_fnc_initVehicle')};";
-					class Value
-					{
-						class data
-						{
-							singleType="ARRAY";
-							class value
-							{
-								items=2;
-								class Item0
-								{
-									class data
-									{
-										singleType="ARRAY";
-									};
-								};
-								class Item1
-								{
-									class data
-									{
-										singleType="ARRAY";
-										class value
-										{
-											items=2;
-											class Item0
-											{
-												class data
-												{
-													singleType="STRING";
-													value="hide_spare";
-												};
-											};
-											class Item1
-											{
-												class data
-												{
-													singleType="SCALAR";
-													value=0;
-												};
-											};
-										};
-									};
-								};
-							};
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="ammoBox";
-					expression="[_this,_value] call bis_fnc_initAmmoBox;";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="[[[[""rhs_weap_M136"",""rhs_weap_m4a1""],[10,5]],[[""rhsusf_100Rnd_762x51_m62_tracer"",""rhs_mag_30Rnd_556x45_Mk262_Stanag"",""ACE_20Rnd_762x51_Mk316_Mod_0_Mag"",""rhs_mag_an_m8hc"",""tsp_breach_linear_mag"",""rhs_mag_maaws_HEAT"",""B_IR_Grenade"",""DemoCharge_Remote_Mag"",""ACE_HandFlare_Red"",""SmokeShellOrange"",""SmokeShellPurple"",""SatchelCharge_Remote_Mag"",""rhs_mag_M441_HE"",""HandGrenade"",""ACE_M84"",""rhsusf_100Rnd_556x45_mixed_soft_pouch""],[15,40,20,10,5,10,5,5,5,5,5,5,25,10,5,15]],[[""ACE_elasticBandage"",""ACE_bloodIV_500"",""ACE_bodyBag"",""ACE_DefusalKit"",""ACE_EarPlugs"",""ACE_epinephrine"",""ACE_morphine""],[25,10,5,5,5,10,10]],[[],[]]],false]";
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="ace_isMedicalVehicle";
-					expression="_this setVariable [""ace_medical_isMedicalVehicle"", _value, true]";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=1;
-						};
-					};
-				};
-				nAttributes=4;
-			};
-		};
-		class Item70
-		{
-			dataType="Object";
-			class PositionInfo
-			{
 				position[]={110.04293,189.1749,9860.7891};
 				angles[]={0,0.10406417,0};
 			};
@@ -10287,7 +10253,7 @@ class Mission
 				nAttributes=3;
 			};
 		};
-		class Item71
+		class Item70
 		{
 			dataType="Object";
 			class PositionInfo
@@ -10483,7 +10449,7 @@ class Mission
 				nAttributes=3;
 			};
 		};
-		class Item72
+		class Item71
 		{
 			dataType="Object";
 			class PositionInfo
@@ -10727,7 +10693,7 @@ class Mission
 				nAttributes=3;
 			};
 		};
-		class Item73
+		class Item72
 		{
 			dataType="Object";
 			class PositionInfo
@@ -10842,21 +10808,21 @@ class Mission
 				nAttributes=3;
 			};
 		};
-		class Item74
+		class Item73
 		{
 			dataType="Layer";
 			name="CyberOps Container HQ";
 			id=296;
 			atlOffset=-197.05;
 		};
-		class Item75
+		class Item74
 		{
 			dataType="Layer";
 			name="Small Underground Bunker";
 			id=2232;
 			atlOffset=-197.05;
 		};
-		class Item76
+		class Item75
 		{
 			dataType="Layer";
 			name="[Prae] US Patrol Base";
@@ -38397,7 +38363,7 @@ class Mission
 			id=5126;
 			atlOffset=-1.3571777;
 		};
-		class Item77
+		class Item76
 		{
 			dataType="Object";
 			class PositionInfo
@@ -38421,7 +38387,7 @@ class Mission
 				class Attribute0
 				{
 					property="ENH_HoldAction";
-					expression="      _value params ['_name', '_iconIdle', '_iconProgress', '_conditionShow', '_conditionProgress', '_codeStart', '_codeProgress', '_codeCompletion', '_codeInterrupt', '_duration', '_priority', '_showUnconscious', '_showWindow'];      if (!is3DEN && !(_name isEqualTo '')) then      {        [          _this,          _name,          _iconIdle,          _iconProgress,          _conditionShow,          _conditionProgress,          compile _codeStart,          compile _codeProgress,          compile format ['%1 %2', '[_this select 0, _this select 2] remoteExecCall [''removeAction'', 0]; remoteExecCall ['''', _this select 0];', _codeCompletion],          compile _codeInterrupt,          nil,          _duration,          _priority,          true,          _showUnconscious,          _showWindow        ] remoteExecCall ['BIS_fnc_holdActionAdd', 0, _this];      };";
+					expression="            _value params ['_name', '_iconIdle', '_iconProgress', '_conditionShow', '_conditionProgress', '_codeStart', '_codeProgress', '_codeCompletion', '_codeInterrupt', '_duration', '_priority', '_showUnconscious', '_showWindow'];            if (!is3DEN && (_name != '')) then            {                [                    _this,                    _name,                    _iconIdle,                    _iconProgress,                    _conditionShow,                    _conditionProgress,                    compile _codeStart,                    compile _codeProgress,                    compile format ['%1 %2', '[_this select 0, _this select 2] remoteExecCall [''removeAction'', 0]; remoteExecCall ['''', _this select 0];', _codeCompletion],                    compile _codeInterrupt,                    nil,                    _duration,                    _priority,                    true,                    _showUnconscious,                    _showWindow                ] remoteExecCall ['BIS_fnc_holdActionAdd', 0, _this];            };";
 					class Value
 					{
 						class data
@@ -38617,7 +38583,7 @@ class Mission
 				nAttributes=4;
 			};
 		};
-		class Item78
+		class Item77
 		{
 			dataType="Object";
 			class PositionInfo
@@ -38641,7 +38607,7 @@ class Mission
 				class Attribute0
 				{
 					property="ENH_HoldAction";
-					expression="      _value params ['_name', '_iconIdle', '_iconProgress', '_conditionShow', '_conditionProgress', '_codeStart', '_codeProgress', '_codeCompletion', '_codeInterrupt', '_duration', '_priority', '_showUnconscious', '_showWindow'];      if (!is3DEN && !(_name isEqualTo '')) then      {        [          _this,          _name,          _iconIdle,          _iconProgress,          _conditionShow,          _conditionProgress,          compile _codeStart,          compile _codeProgress,          compile format ['%1 %2', '[_this select 0, _this select 2] remoteExecCall [''removeAction'', 0]; remoteExecCall ['''', _this select 0];', _codeCompletion],          compile _codeInterrupt,          nil,          _duration,          _priority,          true,          _showUnconscious,          _showWindow        ] remoteExecCall ['BIS_fnc_holdActionAdd', 0, _this];      };";
+					expression="            _value params ['_name', '_iconIdle', '_iconProgress', '_conditionShow', '_conditionProgress', '_codeStart', '_codeProgress', '_codeCompletion', '_codeInterrupt', '_duration', '_priority', '_showUnconscious', '_showWindow'];            if (!is3DEN && (_name != '')) then            {                [                    _this,                    _name,                    _iconIdle,                    _iconProgress,                    _conditionShow,                    _conditionProgress,                    compile _codeStart,                    compile _codeProgress,                    compile format ['%1 %2', '[_this select 0, _this select 2] remoteExecCall [''removeAction'', 0]; remoteExecCall ['''', _this select 0];', _codeCompletion],                    compile _codeInterrupt,                    nil,                    _duration,                    _priority,                    true,                    _showUnconscious,                    _showWindow                ] remoteExecCall ['BIS_fnc_holdActionAdd', 0, _this];            };";
 					class Value
 					{
 						class data
@@ -38969,7 +38935,7 @@ class Mission
 				nAttributes=4;
 			};
 		};
-		class Item79
+		class Item78
 		{
 			dataType="Object";
 			class PositionInfo
@@ -38985,7 +38951,7 @@ class Mission
 			id=5134;
 			type="Land_HelipadSquare_F";
 		};
-		class Item80
+		class Item79
 		{
 			dataType="Object";
 			class PositionInfo
@@ -39084,7 +39050,7 @@ class Mission
 				nAttributes=3;
 			};
 		};
-		class Item81
+		class Item80
 		{
 			dataType="Object";
 			class PositionInfo
@@ -39100,7 +39066,7 @@ class Mission
 			id=5137;
 			type="Box_NATO_AmmoVeh_F";
 		};
-		class Item82
+		class Item81
 		{
 			dataType="Object";
 			class PositionInfo
@@ -39133,7 +39099,7 @@ class Mission
 				class Attribute1
 				{
 					property="ace_refuel_fuelCargo";
-					expression="if (_value != (if (isNumber (configOf _this >> ""ace_refuel_fuelCargo"")) then {getNumber (configOf _this >> ""ace_refuel_fuelCargo"")} else {-1})) then {[_this, _value] call ace_refuel_fnc_makeSource}";
+					expression="if (_value != (_this call ace_refuel_fnc_getFuelCargo)) then {[_this, _value] call ace_refuel_fnc_makeSource}";
 					class Value
 					{
 						class data
@@ -39146,7 +39112,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item83
+		class Item82
 		{
 			dataType="Layer";
 			name="[Prae] US Patrol Base";
@@ -39356,7 +39322,7 @@ class Mission
 			id=6586;
 			atlOffset=-197.05;
 		};
-		class Item84
+		class Item83
 		{
 			dataType="Group";
 			side="Civilian";
@@ -39369,7 +39335,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={32.12915,188.17252,9827.6475};
-						angles[]={0,1.5607716,-0};
+						angles[]={0,1.5607716,0};
 					};
 					side="Civilian";
 					flags=7;
@@ -39571,7 +39537,7 @@ class Mission
 			};
 			id=6587;
 		};
-		class Item85
+		class Item84
 		{
 			dataType="Group";
 			side="Civilian";
@@ -39584,7 +39550,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={31.270874,188.16611,9827.6914};
-						angles[]={0,1.5607716,-0};
+						angles[]={0,1.5607716,0};
 					};
 					side="Civilian";
 					flags=3;
@@ -39774,16 +39740,50 @@ class Mission
 			id=6589;
 			atlOffset=0.79467773;
 		};
+		class Item85
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={127.82784,187.86777,9872.3828};
+				angles[]={6.2639184,3.2343445,0.013071352};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=6591;
+			type="Box_NATO_AmmoOrd_F";
+			atlOffset=0.11599731;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="[[[[],[]],[[""ATMine_Range_Mag"",""APERSMine_Range_Mag"",""APERSBoundingMine_Range_Mag"",""SLAMDirectionalMine_Wire_Mag"",""APERSTripMine_Wire_Mag"",""ClaymoreDirectionalMine_Remote_Mag"",""DemoCharge_Remote_Mag"",""SatchelCharge_Remote_Mag"",""tsp_breach_linear_mag"",""tsp_breach_package_mag"",""tsp_breach_popper_mag"",""tsp_breach_stick_mag""],[5,5,5,5,5,5,10,10,20,10,10,10]],[[""ACE_Clacker"",""ACE_DefusalKit""],[5,1]],[[],[]]],false]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
 	};
 	class Connections
 	{
 		class LinkIDProvider
 		{
-			nextID=151;
+			nextID=150;
 		};
 		class Links
 		{
-			items=151;
+			items=150;
 			class Item0
 			{
 				linkID=0;
@@ -41187,7 +41187,7 @@ class Mission
 			class Item140
 			{
 				linkID=140;
-				item0=82;
+				item0=74;
 				item1=72;
 				class CustomData
 				{
@@ -41197,7 +41197,7 @@ class Mission
 			class Item141
 			{
 				linkID=141;
-				item0=74;
+				item0=43;
 				item1=72;
 				class CustomData
 				{
@@ -41207,7 +41207,7 @@ class Mission
 			class Item142
 			{
 				linkID=142;
-				item0=43;
+				item0=77;
 				item1=72;
 				class CustomData
 				{
@@ -41217,7 +41217,7 @@ class Mission
 			class Item143
 			{
 				linkID=143;
-				item0=77;
+				item0=78;
 				item1=72;
 				class CustomData
 				{
@@ -41227,7 +41227,7 @@ class Mission
 			class Item144
 			{
 				linkID=144;
-				item0=78;
+				item0=79;
 				item1=72;
 				class CustomData
 				{
@@ -41237,7 +41237,7 @@ class Mission
 			class Item145
 			{
 				linkID=145;
-				item0=79;
+				item0=80;
 				item1=72;
 				class CustomData
 				{
@@ -41247,7 +41247,7 @@ class Mission
 			class Item146
 			{
 				linkID=146;
-				item0=80;
+				item0=100;
 				item1=72;
 				class CustomData
 				{
@@ -41257,7 +41257,7 @@ class Mission
 			class Item147
 			{
 				linkID=147;
-				item0=100;
+				item0=101;
 				item1=72;
 				class CustomData
 				{
@@ -41267,7 +41267,7 @@ class Mission
 			class Item148
 			{
 				linkID=148;
-				item0=101;
+				item0=102;
 				item1=72;
 				class CustomData
 				{
@@ -41277,16 +41277,6 @@ class Mission
 			class Item149
 			{
 				linkID=149;
-				item0=102;
-				item1=72;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item150
-			{
-				linkID=150;
 				item0=103;
 				item1=72;
 				class CustomData
