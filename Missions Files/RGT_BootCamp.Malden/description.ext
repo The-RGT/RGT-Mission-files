@@ -59,13 +59,3 @@ aiKills = 0; 											// disable scorelist for AI players
 joinUnassigned = 1;										// 0 = players forced into role on joinlated.
 
 //------------------------- Includes / Functions
-
-class CfgFunctions
-{
-	#include "configs\functions.hpp"
-};
-#include "dialogs\defines.hpp"
-#include "dialogs\StandardLoadoutUI.hpp"
-#include "dialogs\SpecOpsLoadoutUI.hpp"
-#include "dialogs\RussianLoadoutUI.hpp"
-#include "dialogs\WoodlandLoadoutUI.hpp"
