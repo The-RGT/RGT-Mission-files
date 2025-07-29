@@ -4661,7 +4661,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="call{this forceFlagTexture ""RGT\images\flag_pole_texture-regiment_only_skull.paa"";}";
+						init="call{this forceFlagTexture ""rgt_images\images\flag_pole_texture-regiment_only_skull.paa"";}";
 					};
 					id=329;
 					type="Flag_NATO_F";
@@ -9169,7 +9169,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="rgt\images\sop_slides-start_screen.paa,rgt\images\sop_slides-sop_03-Map_Overview.paa,rgt\images\sop_slides-sop_03-Navigational_Equipment.paa,rgt\images\sop_slides-sop_03-Reading_a_Grid.paa,rgt\images\sop_slides-sop_03-8-Grid.paa";
+							value="rgt_images\images\sop_slides-start_screen.paa,rgt_images\images\sop_slides-sop_03-Map_Overview.paa,rgt_images\images\sop_slides-sop_03-Navigational_Equipment.paa,rgt_images\images\sop_slides-sop_03-Reading_a_Grid.paa,rgt_images\images\sop_slides-sop_03-8-Grid.paa";
 						};
 					};
 				};
@@ -9277,7 +9277,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="rgt\images\sop_slides-start_screen.paa,rgt\images\sop_slides-sop_04-Spacing.paa,rgt\images\sop_slides-sop_04-Formations.paa,rgt\images\sop_slides-sop_04-Bounding_&_Overwatch.paa,rgt\images\sop_slides-sop_04-Pepper_Potting.paa,rgt\images\sop_slides-sop_04-Peeling_Sideways.paa,rgt\images\sop_slides-sop_04-Peeling_Backwards.paa,rgt\images\sop_slides-sop_04-Roadcrossing_01.paa,rgt\images\sop_slides-sop_04-Roadcrossing_02.paa,rgt\images\sop_slides-sop_04-Roadcrossing_03.paa,rgt\images\sop_slides-sop_04-Roadcrossing_04.paa,rgt\images\sop_slides-sop_04-Roadcrossing_05.paa,rgt\images\sop_slides-sop_04-Roadcrossing_06.paa";
+							value="rgt_images\images\sop_slides-start_screen.paa,rgt_images\images\sop_slides-sop_04-Spacing.paa,rgt_images\images\sop_slides-sop_04-Formations.paa,rgt_images\images\sop_slides-sop_04-Bounding_&_Overwatch.paa,rgt_images\images\sop_slides-sop_04-Pepper_Potting.paa,rgt_images\images\sop_slides-sop_04-Peeling_Sideways.paa,rgt_images\images\sop_slides-sop_04-Peeling_Backwards.paa,rgt_images\images\sop_slides-sop_04-Roadcrossing_01.paa,rgt_images\images\sop_slides-sop_04-Roadcrossing_02.paa,rgt_images\images\sop_slides-sop_04-Roadcrossing_03.paa,rgt_images\images\sop_slides-sop_04-Roadcrossing_04.paa,rgt_images\images\sop_slides-sop_04-Roadcrossing_05.paa,rgt_images\images\sop_slides-sop_04-Roadcrossing_06.paa";
 						};
 					};
 				};
@@ -9384,7 +9384,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="rgt\images\sop_slides-start_screen.paa,rgt\images\sop_slides-sop_05-short_range_radio.paa,rgt\images\sop_slides-sop_05-long_range_radio.paa";
+							value="rgt_images\images\sop_slides-start_screen.paa,rgt_images\images\sop_slides-sop_05-short_range_radio.paa,rgt_images\images\sop_slides-sop_05-long_range_radio.paa";
 						};
 					};
 				};
@@ -9491,7 +9491,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="rgt\images\sop_slides-start_screen.paa,rgt\images\sop_slides-sop_07_1-CQB-1.paa,rgt\images\sop_slides-sop_07_1-CQB-2.paa,rgt\images\sop_slides-sop_07_1-CQB-3.paa,rgt\images\sop_slides-sop_07_1-CQB-4.paa,rgt\images\sop_slides-sop_07_1-CQB-5.paa,rgt\images\sop_slides-sop_07_1-CQB-6.paa,rgt\images\sop_slides-sop_07_1-CQB-Rolling_T.paa,rgt\images\sop_slides-sop_07_1-CQB-Serpentine.paa,rgt\images\sop_slides-sop_07_1-Stairwell.paa";
+							value="rgt_images\images\sop_slides-start_screen.paa,rgt_images\images\sop_slides-sop_07_1-CQB-1.paa,rgt_images\images\sop_slides-sop_07_1-CQB-2.paa,rgt_images\images\sop_slides-sop_07_1-CQB-3.paa,rgt_images\images\sop_slides-sop_07_1-CQB-4.paa,rgt_images\images\sop_slides-sop_07_1-CQB-5.paa,rgt_images\images\sop_slides-sop_07_1-CQB-6.paa,rgt_images\images\sop_slides-sop_07_1-CQB-Rolling_T.paa,rgt_images\images\sop_slides-sop_07_1-CQB-Serpentine.paa,rgt_images\images\sop_slides-sop_07_1-Stairwell.paa";
 						};
 					};
 				};
@@ -9598,7 +9598,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="rgt\images\sop_slides-start_screen.paa,rgt\images\sop_slides-sop_07_2-MOUT-city_overview.paa,rgt\images\sop_slides-sop_07_2-MOUT-phase_1.paa,rgt\images\sop_slides-sop_07_2-MOUT-phase_2.paa,rgt\images\sop_slides-sop_07_2-MOUT-phase_3.paa,rgt\images\sop_slides-sop_07_2-MOUT-phase_4.paa,rgt\images\sop_slides-sop_07_2-MOUT-phase_5.paa,rgt\images\sop_slides-sop_07_2-MOUT-security.paa";
+							value="rgt_images\images\sop_slides-start_screen.paa,rgt_images\images\sop_slides-sop_07_2-MOUT-city_overview.paa,rgt_images\images\sop_slides-sop_07_2-MOUT-phase_1.paa,rgt_images\images\sop_slides-sop_07_2-MOUT-phase_2.paa,rgt_images\images\sop_slides-sop_07_2-MOUT-phase_3.paa,rgt_images\images\sop_slides-sop_07_2-MOUT-phase_4.paa,rgt_images\images\sop_slides-sop_07_2-MOUT-phase_5.paa,rgt_images\images\sop_slides-sop_07_2-MOUT-security.paa";
 						};
 					};
 				};
@@ -9705,7 +9705,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="rgt\images\sop_slides-start_screen.paa,rgt\images\sop_slides-sop_08_1-Soft_dismount_360.paa,rgt\images\sop_slides-sop_08_1-Hard_dismount_360.paa,rgt\images\sop_slides-sop_08_1-5-25.paa,rgt\images\sop_slides-sop_08_1-Herringbone.paa,rgt\images\sop_slides-sop_08_1-Coil.paa,rgt\images\sop_slides-sop_08_1-Mounted_Patrol_Formations_-_Patrol_Line_Front.paa,rgt\images\sop_slides-sop_08_1-Mounted_Patrol_Formations_-_Patrol_Line_Right.paa";
+							value="rgt_images\images\sop_slides-start_screen.paa,rgt_images\images\sop_slides-sop_08_1-Soft_dismount_360.paa,rgt_images\images\sop_slides-sop_08_1-Hard_dismount_360.paa,rgt_images\images\sop_slides-sop_08_1-5-25.paa,rgt_images\images\sop_slides-sop_08_1-Herringbone.paa,rgt_images\images\sop_slides-sop_08_1-Coil.paa,rgt_images\images\sop_slides-sop_08_1-Mounted_Patrol_Formations_-_Patrol_Line_Front.paa,rgt_images\images\sop_slides-sop_08_1-Mounted_Patrol_Formations_-_Patrol_Line_Right.paa";
 						};
 					};
 				};
@@ -9812,7 +9812,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="rgt\images\sop_slides-start_screen.paa,rgt\images\sop_slides-sop_08_2-Paradrop_-_In_the_air_-_free_fall.paa,rgt\images\sop_slides-sop_08_2-Paradrop_-_In_the_air_-_deployed_parachute.paa,rgt\images\sop_slides-sop_08_2-Rear_Loading_Unloading.paa,rgt\images\sop_slides-sop_08_2-Side_Loading_Unloading.paa,rgt\images\sop_slides-sop_08_2-Rotary_Wing_Seats_&_Sectors_1.paa,rgt\images\sop_slides-sop_08_2-Rotary_Wing_Seats_&_Sectors_2.paa,rgt\images\sop_slides-sop_08_2-Edge_Hover_Insertion.paa,rgt\images\sop_slides-sop_08_2-Slope_Hovering.paa";
+							value="rgt_images\images\sop_slides-start_screen.paa,rgt_images\images\sop_slides-sop_08_2-Paradrop_-_In_the_air_-_free_fall.paa,rgt_images\images\sop_slides-sop_08_2-Paradrop_-_In_the_air_-_deployed_parachute.paa,rgt_images\images\sop_slides-sop_08_2-Rear_Loading_Unloading.paa,rgt_images\images\sop_slides-sop_08_2-Side_Loading_Unloading.paa,rgt_images\images\sop_slides-sop_08_2-Rotary_Wing_Seats_&_Sectors_1.paa,rgt_images\images\sop_slides-sop_08_2-Rotary_Wing_Seats_&_Sectors_2.paa,rgt_images\images\sop_slides-sop_08_2-Edge_Hover_Insertion.paa,rgt_images\images\sop_slides-sop_08_2-Slope_Hovering.paa";
 						};
 					};
 				};
@@ -9919,7 +9919,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="rgt\images\sop_slides-start_screen.paa,rgt\images\sop_slides-sop_09-EOD_Specialist_Loadout.paa,rgt\images\sop_slides-sop_09-Mine_Detector_Activation.paa,rgt\images\sop_slides-sop_09-Mine_Disarming.paa,rgt\images\sop_slides-sop_09-Combat_Engineer_Loadout.paa,rgt\images\sop_slides-sop_09-Prepare_&_Detonate_Explosives_1.paa,rgt\images\sop_slides-sop_09-Prepare_&_Detonate_Explosives_2.paa,rgt\images\sop_slides-sop_09-Prepare_&_Detonate_Explosives_3.paa,rgt\images\sop_slides-sop_09-Prepare_&_Detonate_Explosives_4.paa";
+							value="rgt_images\images\sop_slides-start_screen.paa,rgt_images\images\sop_slides-sop_09-EOD_Specialist_Loadout.paa,rgt_images\images\sop_slides-sop_09-Mine_Detector_Activation.paa,rgt_images\images\sop_slides-sop_09-Mine_Disarming.paa,rgt_images\images\sop_slides-sop_09-Combat_Engineer_Loadout.paa,rgt_images\images\sop_slides-sop_09-Prepare_&_Detonate_Explosives_1.paa,rgt_images\images\sop_slides-sop_09-Prepare_&_Detonate_Explosives_2.paa,rgt_images\images\sop_slides-sop_09-Prepare_&_Detonate_Explosives_3.paa,rgt_images\images\sop_slides-sop_09-Prepare_&_Detonate_Explosives_4.paa";
 						};
 					};
 				};
@@ -10026,7 +10026,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="rgt\images\sop_slides-start_screen.paa,rgt\images\sop_slides-sop_14-FFP_field.paa,rgt\images\sop_slides-sop_14-FFP_urban.paa,rgt\images\sop_slides-sop_14-different_reticles.paa,rgt\images\sop_slides-sop_14-milliradian.paa,rgt\images\sop_slides-sop_14-mildot_ranging.paa,rgt\images\sop_slides-sop_14-range_card2.paa,rgt\images\sop_slides-sop_14-scope_adjustment.paa,rgt\images\sop_slides-sop_14-lead.paa,rgt\images\sop_slides-sop_14-lead_tracking.paa,rgt\images\sop_slides-sop_14-lead_ambush2.paa,rgt\images\sop_slides-sop_14-kestrel_4500.paa,rgt\images\sop_slides-sop_14-sectors_of_observation.paa";
+							value="rgt_images\images\sop_slides-start_screen.paa,rgt_images\images\sop_slides-sop_14-FFP_field.paa,rgt_images\images\sop_slides-sop_14-FFP_urban.paa,rgt_images\images\sop_slides-sop_14-different_reticles.paa,rgt_images\images\sop_slides-sop_14-milliradian.paa,rgt_images\images\sop_slides-sop_14-mildot_ranging.paa,rgt_images\images\sop_slides-sop_14-range_card2.paa,rgt_images\images\sop_slides-sop_14-scope_adjustment.paa,rgt_images\images\sop_slides-sop_14-lead.paa,rgt_images\images\sop_slides-sop_14-lead_tracking.paa,rgt_images\images\sop_slides-sop_14-lead_ambush2.paa,rgt_images\images\sop_slides-sop_14-kestrel_4500.paa,rgt_images\images\sop_slides-sop_14-sectors_of_observation.paa";
 						};
 					};
 				};
@@ -10133,7 +10133,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="rgt\images\sop_slides-start_screen.paa,rgt\images\sop_slides-sop_14-ATragMX-01.paa,rgt\images\sop_slides-sop_14-ATragMX-02.paa,rgt\images\sop_slides-sop_14-ATragMX-03.paa,rgt\images\sop_slides-sop_14-ATragMX-04.paa,rgt\images\sop_slides-sop_14-ATragMX-05.paa,rgt\images\sop_slides-sop_14-ATragMX-06.paa,rgt\images\sop_slides-sop_14-weather_conditions.paa,rgt\images\sop_slides-sop_14-Target_Range.paa,rgt\images\sop_slides-sop_14-Wind_Reading.paa,rgt\images\sop_slides-sop_14-Final_Adjustments.paa";
+							value="rgt_images\images\sop_slides-start_screen.paa,rgt_images\images\sop_slides-sop_14-ATragMX-01.paa,rgt_images\images\sop_slides-sop_14-ATragMX-02.paa,rgt_images\images\sop_slides-sop_14-ATragMX-03.paa,rgt_images\images\sop_slides-sop_14-ATragMX-04.paa,rgt_images\images\sop_slides-sop_14-ATragMX-05.paa,rgt_images\images\sop_slides-sop_14-ATragMX-06.paa,rgt_images\images\sop_slides-sop_14-weather_conditions.paa,rgt_images\images\sop_slides-sop_14-Target_Range.paa,rgt_images\images\sop_slides-sop_14-Wind_Reading.paa,rgt_images\images\sop_slides-sop_14-Final_Adjustments.paa";
 						};
 					};
 				};
@@ -10240,7 +10240,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="rgt\images\sop_slides-start_screen.paa,rgt\images\sop_slides-sop_15-cas_vs_idf.paa,rgt\images\sop_slides-sop_15-cas_flow.paa,rgt\images\sop_slides-sop_15-keyhole_method.paa,rgt\images\sop_slides-sop_15-game_plan.paa,rgt\images\sop_slides-sop_15-5-line.paa";
+							value="rgt_images\images\sop_slides-start_screen.paa,rgt_images\images\sop_slides-sop_15-cas_vs_idf.paa,rgt_images\images\sop_slides-sop_15-cas_flow.paa,rgt_images\images\sop_slides-sop_15-keyhole_method.paa,rgt_images\images\sop_slides-sop_15-game_plan.paa,rgt_images\images\sop_slides-sop_15-5-line.paa";
 						};
 					};
 				};
