@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=20;
+		nextID=21;
 	};
 	class Camera
 	{
-		pos[]={6676.4497,48.935192,1152.96};
-		dir[]={-0.76983058,-0.46159413,-0.44109169};
-		up[]={-0.40061542,0.88696504,-0.22954489};
-		aside[]={-0.49719021,5.0850213e-07,0.86773407};
+		pos[]={6805.8984,118.79207,1377.897};
+		dir[]={-0.79506904,-0.29048377,-0.53268486};
+		up[]={-0.24146625,0.95678478,-0.16178055};
+		aside[]={-0.55664712,1.4944235e-06,0.83083004};
 	};
 };
 binarizationWanted=0;
@@ -3892,13 +3892,14 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={6605.7598,50.346783,1263.9807};
-				angles[]={0,6.1500998,0};
+				position[]={6605.7598,50.347282,1263.9802};
+				angles[]={0,6.150104,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				name="VicWest_15";
 				textures="standard";
 				reportRemoteTargets=1;
 				receiveRemoteTargets=1;
@@ -3906,7 +3907,7 @@ class Mission
 			};
 			id=91;
 			type="RHS_CH_47F";
-			atlOffset=-0.051498413;
+			atlOffset=-0.050998688;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -3968,7 +3969,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="[[[[""rhs_weap_M136"",""rhs_weap_m4a1""],[10,5]],[[""rhsusf_100Rnd_762x51_m62_tracer"",""rhs_mag_30Rnd_556x45_Mk262_Stanag"",""rhs_mag_an_m8hc"",""tsp_breach_linear_mag"",""rhs_mag_maaws_HEAT"",""B_IR_Grenade"",""DemoCharge_Remote_Mag"",""ACE_HandFlare_Red"",""SmokeShellOrange"",""SmokeShellPurple"",""SatchelCharge_Remote_Mag"",""rhs_mag_M441_HE"",""HandGrenade"",""ACE_M84"",""rhsusf_100Rnd_556x45_mixed_soft_pouch"",""ACE_20Rnd_762x51_Mk316_Mod_0_Mag""],[15,40,10,5,10,5,5,5,5,5,5,25,10,5,15,20]],[[""ACE_elasticBandage"",""ACE_bloodIV_500"",""ACE_bodyBag"",""ACE_DefusalKit"",""ACE_EarPlugs"",""ACE_epinephrine"",""ACE_morphine""],[25,10,5,5,5,10,10]],[[],[]]],false]";
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
 						};
 					};
 				};
@@ -4060,6 +4061,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				name="VicWest_14";
 				textures="guerilla";
 				reportRemoteTargets=1;
 				receiveRemoteTargets=1;
@@ -4128,7 +4130,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="[[[[""rhs_weap_M136"",""rhs_weap_m4a1""],[10,5]],[[""rhsusf_100Rnd_762x51_m62_tracer"",""rhs_mag_30Rnd_556x45_Mk262_Stanag"",""rhs_mag_an_m8hc"",""tsp_breach_linear_mag"",""rhs_mag_maaws_HEAT"",""B_IR_Grenade"",""DemoCharge_Remote_Mag"",""ACE_HandFlare_Red"",""SmokeShellOrange"",""SmokeShellPurple"",""SatchelCharge_Remote_Mag"",""rhs_mag_M441_HE"",""HandGrenade"",""ACE_M84"",""rhsusf_100Rnd_556x45_mixed_soft_pouch"",""ACE_20Rnd_762x51_Mk316_Mod_0_Mag""],[15,40,10,5,10,5,5,5,5,5,5,25,10,5,15,20]],[[""ACE_elasticBandage"",""ACE_bloodIV_500"",""ACE_bodyBag"",""ACE_DefusalKit"",""ACE_EarPlugs"",""ACE_epinephrine"",""ACE_morphine""],[25,10,5,5,5,10,10]],[[],[]]],false]";
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
 						};
 					};
 				};
@@ -4153,13 +4155,14 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={6706.4717,49.247845,1181.3628};
-				angles[]={0,4.5827847,0};
+				position[]={6707.2007,49.245781,1181.5112};
+				angles[]={-0,4.5827808,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				name="VicWest_5";
 				textures="rhs_woodland";
 				reportRemoteTargets=1;
 				receiveRemoteTargets=1;
@@ -4167,7 +4170,6 @@ class Mission
 			};
 			id=133;
 			type="rhsusf_M1078A1R_SOV_M2_D_fmtv_socom";
-			atlOffset=0.0020637512;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -4229,7 +4231,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="[[[[""rhs_weap_M136"",""rhs_weap_m4a1""],[10,5]],[[""rhsusf_100Rnd_762x51_m62_tracer"",""rhs_mag_30Rnd_556x45_Mk262_Stanag"",""ACE_20Rnd_762x51_Mk316_Mod_0_Mag"",""rhs_mag_an_m8hc"",""tsp_breach_linear_mag"",""rhs_mag_maaws_HEAT"",""B_IR_Grenade"",""DemoCharge_Remote_Mag"",""ACE_HandFlare_Red"",""SmokeShellOrange"",""SmokeShellPurple"",""SatchelCharge_Remote_Mag"",""rhs_mag_M441_HE"",""HandGrenade"",""ACE_M84"",""rhsusf_100Rnd_556x45_mixed_soft_pouch""],[15,40,20,10,5,10,5,5,5,5,5,5,25,10,5,15]],[[""ACE_elasticBandage"",""ACE_bloodIV_500"",""ACE_bodyBag"",""ACE_DefusalKit"",""ACE_EarPlugs"",""ACE_epinephrine"",""ACE_morphine""],[25,10,5,5,5,10,10]],[[],[]]],false]";
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
 						};
 					};
 				};
@@ -4267,13 +4269,14 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={6705.9546,49.247845,1185.3292};
-				angles[]={0,4.5827847,0};
+				position[]={6706.6782,49.245781,1185.4186};
+				angles[]={-0,4.5827808,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				name="VicWest_4";
 				textures="rhs_woodland";
 				reportRemoteTargets=1;
 				receiveRemoteTargets=1;
@@ -4281,7 +4284,6 @@ class Mission
 			};
 			id=134;
 			type="rhsusf_M1078A1R_SOV_M2_D_fmtv_socom";
-			atlOffset=0.0020637512;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -4343,7 +4345,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="[[[[""rhs_weap_M136"",""rhs_weap_m4a1""],[10,5]],[[""rhsusf_100Rnd_762x51_m62_tracer"",""rhs_mag_30Rnd_556x45_Mk262_Stanag"",""ACE_20Rnd_762x51_Mk316_Mod_0_Mag"",""rhs_mag_an_m8hc"",""tsp_breach_linear_mag"",""rhs_mag_maaws_HEAT"",""B_IR_Grenade"",""DemoCharge_Remote_Mag"",""ACE_HandFlare_Red"",""SmokeShellOrange"",""SmokeShellPurple"",""SatchelCharge_Remote_Mag"",""rhs_mag_M441_HE"",""HandGrenade"",""ACE_M84"",""rhsusf_100Rnd_556x45_mixed_soft_pouch""],[15,40,20,10,5,10,5,5,5,5,5,5,25,10,5,15]],[[""ACE_elasticBandage"",""ACE_bloodIV_500"",""ACE_bodyBag"",""ACE_DefusalKit"",""ACE_EarPlugs"",""ACE_epinephrine"",""ACE_morphine""],[25,10,5,5,5,10,10]],[[],[]]],false]";
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
 						};
 					};
 				};
@@ -4381,13 +4383,14 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={6705.4375,48.187996,1189.2957};
-				angles[]={0,4.5827847,0};
+				position[]={6705.438,48.187988,1189.296};
+				angles[]={0,4.5827808,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				name="VicWest_3";
 				textures="rhs_woodland";
 				reportRemoteTargets=1;
 				receiveRemoteTargets=1;
@@ -4395,7 +4398,7 @@ class Mission
 			};
 			id=135;
 			type="rhsusf_M1237_M2_usarmy_wd";
-			atlOffset=0.0020065308;
+			atlOffset=0.0019989014;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -4457,7 +4460,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="[[[[""rhs_weap_M136"",""rhs_weap_m4a1""],[10,5]],[[""rhsusf_100Rnd_762x51_m62_tracer"",""rhs_mag_30Rnd_556x45_Mk262_Stanag"",""ACE_20Rnd_762x51_Mk316_Mod_0_Mag"",""rhs_mag_an_m8hc"",""tsp_breach_linear_mag"",""rhs_mag_maaws_HEAT"",""B_IR_Grenade"",""DemoCharge_Remote_Mag"",""ACE_HandFlare_Red"",""SmokeShellOrange"",""SmokeShellPurple"",""SatchelCharge_Remote_Mag"",""rhs_mag_M441_HE"",""HandGrenade"",""ACE_M84"",""rhsusf_100Rnd_556x45_mixed_soft_pouch""],[15,40,20,10,5,10,5,5,5,5,5,5,25,10,5,15]],[[""ACE_elasticBandage"",""ACE_bloodIV_500"",""ACE_bodyBag"",""ACE_DefusalKit"",""ACE_EarPlugs"",""ACE_epinephrine"",""ACE_morphine""],[25,10,5,5,5,10,10]],[[],[]]],false]";
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
 						};
 					};
 				};
@@ -4482,13 +4485,14 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={6704.9204,49.54216,1193.2622};
-				angles[]={0,4.5827847,0};
+				position[]={6705.4722,49.54216,1193.371};
+				angles[]={0,4.5827808,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				name="VicWest_2";
 				textures="rhs_woodland";
 				reportRemoteTargets=1;
 				receiveRemoteTargets=1;
@@ -4509,7 +4513,7 @@ class Mission
 							singleType="ARRAY";
 							class value
 							{
-								items=13;
+								items=14;
 								class Item0
 								{
 									class data
@@ -4614,6 +4618,14 @@ class Mission
 										value=1;
 									};
 								};
+								class Item13
+								{
+									class data
+									{
+										singleType="BOOL";
+										value=0;
+									};
+								};
 							};
 						};
 					};
@@ -4677,7 +4689,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="[[[[""rhs_weap_M136"",""rhs_weap_m4a1""],[10,5]],[[""rhsusf_100Rnd_762x51_m62_tracer"",""rhs_mag_30Rnd_556x45_Mk262_Stanag"",""ACE_20Rnd_762x51_Mk316_Mod_0_Mag"",""rhs_mag_an_m8hc"",""tsp_breach_linear_mag"",""rhs_mag_maaws_HEAT"",""B_IR_Grenade"",""DemoCharge_Remote_Mag"",""ACE_HandFlare_Red"",""SmokeShellOrange"",""SmokeShellPurple"",""SatchelCharge_Remote_Mag"",""rhs_mag_M441_HE"",""HandGrenade"",""ACE_M84"",""rhsusf_100Rnd_556x45_mixed_soft_pouch""],[15,40,20,10,5,10,5,5,5,5,5,5,25,10,5,15]],[[""ACE_elasticBandage"",""ACE_bloodIV_500"",""ACE_bodyBag"",""ACE_DefusalKit"",""ACE_EarPlugs"",""ACE_epinephrine"",""ACE_morphine""],[25,10,5,5,5,10,10]],[[],[]]],false]";
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
 						};
 					};
 				};
@@ -4702,13 +4714,14 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={6682.0938,48.24836,1185.5868};
-				angles[]={0,1.4380983,0};
+				position[]={6682.0942,48.24836,1185.587};
+				angles[]={0,1.438099,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				name="VicWest_9";
 				textures="mud_pnt1";
 				reportRemoteTargets=1;
 				receiveRemoteTargets=1;
@@ -4832,7 +4845,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="[[[[""rhs_weap_M136"",""rhs_weap_m4a1""],[10,5]],[[""rhsusf_100Rnd_762x51_m62_tracer"",""rhs_mag_30Rnd_556x45_Mk262_Stanag"",""ACE_20Rnd_762x51_Mk316_Mod_0_Mag"",""rhs_mag_an_m8hc"",""tsp_breach_linear_mag"",""rhs_mag_maaws_HEAT"",""B_IR_Grenade"",""DemoCharge_Remote_Mag"",""ACE_HandFlare_Red"",""SmokeShellOrange"",""SmokeShellPurple"",""SatchelCharge_Remote_Mag"",""rhs_mag_M441_HE"",""HandGrenade"",""ACE_M84"",""rhsusf_100Rnd_556x45_mixed_soft_pouch""],[15,40,20,10,5,10,5,5,5,5,5,5,25,10,5,15]],[[""ACE_elasticBandage"",""ACE_bloodIV_500"",""ACE_bodyBag"",""ACE_DefusalKit"",""ACE_EarPlugs"",""ACE_epinephrine"",""ACE_morphine""],[25,10,5,5,5,10,10]],[[],[]]],false]";
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
 						};
 					};
 				};
@@ -4844,7 +4857,7 @@ class Mission
 					{
 						class data
 						{
-							singleType="SCALAR";
+							singleType="BOOL";
 							value=1;
 						};
 					};
@@ -4871,12 +4884,13 @@ class Mission
 			class PositionInfo
 			{
 				position[]={6682.3569,48.24836,1183.605};
-				angles[]={0,1.4380983,0};
+				angles[]={0,1.438099,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				name="VicWest_8";
 				textures="mud_pnt1";
 				reportRemoteTargets=1;
 				receiveRemoteTargets=1;
@@ -5000,7 +5014,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="[[[[""rhs_weap_M136"",""rhs_weap_m4a1""],[10,5]],[[""rhsusf_100Rnd_762x51_m62_tracer"",""rhs_mag_30Rnd_556x45_Mk262_Stanag"",""ACE_20Rnd_762x51_Mk316_Mod_0_Mag"",""rhs_mag_an_m8hc"",""tsp_breach_linear_mag"",""rhs_mag_maaws_HEAT"",""B_IR_Grenade"",""DemoCharge_Remote_Mag"",""ACE_HandFlare_Red"",""SmokeShellOrange"",""SmokeShellPurple"",""SatchelCharge_Remote_Mag"",""rhs_mag_M441_HE"",""HandGrenade"",""ACE_M84"",""rhsusf_100Rnd_556x45_mixed_soft_pouch""],[15,40,20,10,5,10,5,5,5,5,5,5,25,10,5,15]],[[""ACE_elasticBandage"",""ACE_bloodIV_500"",""ACE_bodyBag"",""ACE_DefusalKit"",""ACE_EarPlugs"",""ACE_epinephrine"",""ACE_morphine""],[25,10,5,5,5,10,10]],[[],[]]],false]";
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
 						};
 					};
 				};
@@ -5012,7 +5026,7 @@ class Mission
 					{
 						class data
 						{
-							singleType="SCALAR";
+							singleType="BOOL";
 							value=1;
 						};
 					};
@@ -5038,14 +5052,14 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={6681.8442,48.142891,1181.6841};
-				angles[]={0,1.4381059,0};
+				position[]={6681.8442,48.142891,1181.684};
+				angles[]={0,1.438099,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
-				textures="mud_pnt1";
+				name="VicWest_7";
 				reportRemoteTargets=1;
 				receiveRemoteTargets=1;
 				reportOwnPosition=1;
@@ -5129,7 +5143,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="[[[[""rhs_weap_M136"",""rhs_weap_m4a1""],[10,5]],[[""rhsusf_100Rnd_762x51_m62_tracer"",""rhs_mag_30Rnd_556x45_Mk262_Stanag"",""ACE_20Rnd_762x51_Mk316_Mod_0_Mag"",""rhs_mag_an_m8hc"",""tsp_breach_linear_mag"",""rhs_mag_maaws_HEAT"",""B_IR_Grenade"",""DemoCharge_Remote_Mag"",""ACE_HandFlare_Red"",""SmokeShellOrange"",""SmokeShellPurple"",""SatchelCharge_Remote_Mag"",""rhs_mag_M441_HE"",""HandGrenade"",""ACE_M84"",""rhsusf_100Rnd_556x45_mixed_soft_pouch""],[15,40,20,10,5,10,5,5,5,5,5,5,25,10,5,15]],[[""ACE_elasticBandage"",""ACE_bloodIV_500"",""ACE_bodyBag"",""ACE_DefusalKit"",""ACE_EarPlugs"",""ACE_epinephrine"",""ACE_morphine""],[25,10,5,5,5,10,10]],[[],[]]],false]";
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
 						};
 					};
 				};
@@ -5141,7 +5155,7 @@ class Mission
 					{
 						class data
 						{
-							singleType="SCALAR";
+							singleType="BOOL";
 							value=1;
 						};
 					};
@@ -5154,13 +5168,14 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={6682.0825,48.15889,1179.5018};
-				angles[]={0,1.4381059,0};
+				position[]={6682.083,48.15889,1179.502};
+				angles[]={0,1.438099,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				name="VicWest_6";
 				reportRemoteTargets=1;
 				receiveRemoteTargets=1;
 				reportOwnPosition=1;
@@ -5245,7 +5260,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="[[[[""rhs_weap_M136"",""rhs_weap_m4a1""],[10,5]],[[""rhsusf_100Rnd_762x51_m62_tracer"",""rhs_mag_30Rnd_556x45_Mk262_Stanag"",""ACE_20Rnd_762x51_Mk316_Mod_0_Mag"",""rhs_mag_an_m8hc"",""tsp_breach_linear_mag"",""rhs_mag_maaws_HEAT"",""B_IR_Grenade"",""DemoCharge_Remote_Mag"",""ACE_HandFlare_Red"",""SmokeShellOrange"",""SmokeShellPurple"",""SatchelCharge_Remote_Mag"",""rhs_mag_M441_HE"",""HandGrenade"",""ACE_M84"",""rhsusf_100Rnd_556x45_mixed_soft_pouch""],[15,40,20,10,5,10,5,5,5,5,5,5,25,10,5,15]],[[""ACE_elasticBandage"",""ACE_bloodIV_500"",""ACE_bodyBag"",""ACE_DefusalKit"",""ACE_EarPlugs"",""ACE_epinephrine"",""ACE_morphine""],[25,10,5,5,5,10,10]],[[],[]]],false]";
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
 						};
 					};
 				};
@@ -5270,13 +5285,14 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={6704.4033,49.551048,1197.2286};
-				angles[]={0,4.5827847,0};
+				position[]={6704.4028,49.551048,1197.229};
+				angles[]={0,4.5827808,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				name="VicWest_1";
 				textures="rhs_woodland";
 				reportRemoteTargets=1;
 				receiveRemoteTargets=1;
@@ -5406,8 +5422,8 @@ class Mission
 								{
 									class data
 									{
-										singleType="STRING";
-										value="";
+										singleType="BOOL";
+										value=0;
 									};
 								};
 							};
@@ -5473,7 +5489,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="[[[[""rhs_weap_M136"",""rhs_weap_m4a1""],[10,5]],[[""rhsusf_100Rnd_762x51_m62_tracer"",""rhs_mag_30Rnd_556x45_Mk262_Stanag"",""ACE_20Rnd_762x51_Mk316_Mod_0_Mag"",""rhs_mag_an_m8hc"",""tsp_breach_linear_mag"",""rhs_mag_maaws_HEAT"",""B_IR_Grenade"",""DemoCharge_Remote_Mag"",""ACE_HandFlare_Red"",""SmokeShellOrange"",""SmokeShellPurple"",""SatchelCharge_Remote_Mag"",""rhs_mag_M441_HE"",""HandGrenade"",""ACE_M84"",""rhsusf_100Rnd_556x45_mixed_soft_pouch""],[15,40,20,10,5,10,5,5,5,5,5,5,25,10,5,15]],[[""ACE_elasticBandage"",""ACE_bloodIV_500"",""ACE_bodyBag"",""ACE_DefusalKit"",""ACE_EarPlugs"",""ACE_epinephrine"",""ACE_morphine""],[25,10,5,5,5,10,10]],[[],[]]],false]";
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
 						};
 					};
 				};
@@ -5498,13 +5514,14 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={6703.8867,49.550587,1201.1951};
-				angles[]={0,4.5827847,0};
+				position[]={6703.8872,49.550369,1201.1949};
+				angles[]={0,4.5827808,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				name="VicWest_0";
 				textures="rhs_woodland";
 				reportRemoteTargets=1;
 				receiveRemoteTargets=1;
@@ -5512,7 +5529,7 @@ class Mission
 			};
 			id=146;
 			type="rhsusf_m1240a1_m2_usarmy_wd";
-			atlOffset=-0.057781219;
+			atlOffset=-0.057998657;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -5635,8 +5652,8 @@ class Mission
 								{
 									class data
 									{
-										singleType="STRING";
-										value="";
+										singleType="BOOL";
+										value=0;
 									};
 								};
 							};
@@ -5702,7 +5719,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="[[[[""rhs_weap_M136"",""rhs_weap_m4a1""],[10,5]],[[""rhsusf_100Rnd_762x51_m62_tracer"",""rhs_mag_30Rnd_556x45_Mk262_Stanag"",""ACE_20Rnd_762x51_Mk316_Mod_0_Mag"",""rhs_mag_an_m8hc"",""tsp_breach_linear_mag"",""rhs_mag_maaws_HEAT"",""B_IR_Grenade"",""DemoCharge_Remote_Mag"",""ACE_HandFlare_Red"",""SmokeShellOrange"",""SmokeShellPurple"",""SatchelCharge_Remote_Mag"",""rhs_mag_M441_HE"",""HandGrenade"",""ACE_M84"",""rhsusf_100Rnd_556x45_mixed_soft_pouch""],[15,40,20,10,5,10,5,5,5,5,5,5,25,10,5,15]],[[""ACE_elasticBandage"",""ACE_bloodIV_500"",""ACE_bodyBag"",""ACE_DefusalKit"",""ACE_EarPlugs"",""ACE_epinephrine"",""ACE_morphine""],[25,10,5,5,5,10,10]],[[],[]]],false]";
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
 						};
 					};
 				};
@@ -5932,13 +5949,14 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={6680.7251,48.474892,1195.0153};
-				angles[]={0,1.438099,0};
+				position[]={6681.3335,48.474892,1195.1014};
+				angles[]={-0,1.438099,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				name="VicWest_12";
 				reportRemoteTargets=1;
 				receiveRemoteTargets=1;
 				reportOwnPosition=1;
@@ -6022,7 +6040,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="[[[[""rhs_weap_M136"",""rhs_weap_m4a1""],[10,5]],[[""rhsusf_100Rnd_762x51_m62_tracer"",""rhs_mag_30Rnd_556x45_Mk262_Stanag"",""ACE_20Rnd_762x51_Mk316_Mod_0_Mag"",""rhs_mag_an_m8hc"",""tsp_breach_linear_mag"",""rhs_mag_maaws_HEAT"",""B_IR_Grenade"",""DemoCharge_Remote_Mag"",""ACE_HandFlare_Red"",""SmokeShellOrange"",""SmokeShellPurple"",""SatchelCharge_Remote_Mag"",""rhs_mag_M441_HE"",""HandGrenade"",""ACE_M84"",""rhsusf_100Rnd_556x45_mixed_soft_pouch""],[15,40,20,10,5,10,5,5,5,5,5,5,25,10,5,15]],[[""ACE_elasticBandage"",""ACE_bloodIV_500"",""ACE_bodyBag"",""ACE_DefusalKit"",""ACE_EarPlugs"",""ACE_epinephrine"",""ACE_morphine""],[25,10,5,5,5,10,10]],[[],[]]],false]";
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
 						};
 					};
 				};
@@ -6047,14 +6065,14 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={6680.3008,48.474892,1198.2343};
-				angles[]={0,1.438099,0};
+				position[]={6680.8906,48.474892,1198.522};
+				angles[]={-0,1.438099,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
-				textures="standard";
+				name="VicWest_13";
 				reportRemoteTargets=1;
 				receiveRemoteTargets=1;
 				reportOwnPosition=1;
@@ -6218,7 +6236,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="[[[[""rhs_weap_M136"",""rhs_weap_m4a1""],[10,5]],[[""rhsusf_100Rnd_762x51_m62_tracer"",""rhs_mag_30Rnd_556x45_Mk262_Stanag"",""ACE_20Rnd_762x51_Mk316_Mod_0_Mag"",""rhs_mag_an_m8hc"",""tsp_breach_linear_mag"",""rhs_mag_maaws_HEAT"",""B_IR_Grenade"",""DemoCharge_Remote_Mag"",""ACE_HandFlare_Red"",""SmokeShellOrange"",""SmokeShellPurple"",""SatchelCharge_Remote_Mag"",""rhs_mag_M441_HE"",""HandGrenade"",""ACE_M84"",""rhsusf_100Rnd_556x45_mixed_soft_pouch""],[15,40,20,10,5,10,5,5,5,5,5,5,25,10,5,15]],[[""ACE_elasticBandage"",""ACE_bloodIV_500"",""ACE_bodyBag"",""ACE_DefusalKit"",""ACE_EarPlugs"",""ACE_epinephrine"",""ACE_morphine""],[25,10,5,5,5,10,10]],[[],[]]],false]";
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
 						};
 					};
 				};
@@ -6243,13 +6261,14 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={6681.2134,48.452812,1191.8213};
+				position[]={6681.2129,48.452888,1191.821};
 				angles[]={0,1.438099,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				name="VicWest_11";
 				textures="rhs_woodland";
 				reportRemoteTargets=1;
 				receiveRemoteTargets=1;
@@ -6257,7 +6276,6 @@ class Mission
 			};
 			id=154;
 			type="rhsusf_m1152_usarmy_wd";
-			atlOffset=-7.6293945e-05;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -6463,7 +6481,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="[[[[""rhs_weap_M136"",""rhs_weap_m4a1""],[10,5]],[[""rhsusf_100Rnd_762x51_m62_tracer"",""rhs_mag_30Rnd_556x45_Mk262_Stanag"",""ACE_20Rnd_762x51_Mk316_Mod_0_Mag"",""rhs_mag_an_m8hc"",""tsp_breach_linear_mag"",""rhs_mag_maaws_HEAT"",""B_IR_Grenade"",""DemoCharge_Remote_Mag"",""ACE_HandFlare_Red"",""SmokeShellOrange"",""SmokeShellPurple"",""SatchelCharge_Remote_Mag"",""rhs_mag_M441_HE"",""HandGrenade"",""ACE_M84"",""rhsusf_100Rnd_556x45_mixed_soft_pouch""],[15,40,20,10,5,10,5,5,5,5,5,5,25,10,5,15]],[[""ACE_elasticBandage"",""ACE_bloodIV_500"",""ACE_bodyBag"",""ACE_DefusalKit"",""ACE_EarPlugs"",""ACE_epinephrine"",""ACE_morphine""],[25,10,5,5,5,10,10]],[[],[]]],false]";
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
 						};
 					};
 				};
@@ -6495,6 +6513,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				name="VicWest_10";
 				reportRemoteTargets=1;
 				receiveRemoteTargets=1;
 				reportOwnPosition=1;
@@ -6578,7 +6597,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="[[[[""rhs_weap_M136"",""rhs_weap_m4a1""],[10,5]],[[""rhsusf_100Rnd_762x51_m62_tracer"",""rhs_mag_30Rnd_556x45_Mk262_Stanag"",""ACE_20Rnd_762x51_Mk316_Mod_0_Mag"",""rhs_mag_an_m8hc"",""tsp_breach_linear_mag"",""rhs_mag_maaws_HEAT"",""B_IR_Grenade"",""DemoCharge_Remote_Mag"",""ACE_HandFlare_Red"",""SmokeShellOrange"",""SmokeShellPurple"",""SatchelCharge_Remote_Mag"",""rhs_mag_M441_HE"",""HandGrenade"",""ACE_M84"",""rhsusf_100Rnd_556x45_mixed_soft_pouch""],[15,40,20,10,5,10,5,5,5,5,5,5,25,10,5,15]],[[""ACE_elasticBandage"",""ACE_bloodIV_500"",""ACE_bodyBag"",""ACE_DefusalKit"",""ACE_EarPlugs"",""ACE_epinephrine"",""ACE_morphine""],[25,10,5,5,5,10,10]],[[],[]]],false]";
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
 						};
 					};
 				};
@@ -8153,7 +8172,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={6664.3774,46.671436,1121.8779};
-						angles[]={0,3.0770512,-0};
+						angles[]={0,3.0770512,0};
 					};
 					side="Civilian";
 					flags=7;
@@ -8287,7 +8306,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={6664.3726,46.671436,1120.8778};
-						angles[]={0,3.0770512,-0};
+						angles[]={0,3.0770512,0};
 					};
 					side="Civilian";
 					flags=7;
@@ -8555,7 +8574,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={6665.3774,46.671436,1121.8729};
-						angles[]={0,3.0770512,-0};
+						angles[]={0,3.0770512,0};
 					};
 					side="Civilian";
 					flags=7;
@@ -8735,7 +8754,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={6665.3716,46.671436,1120.8718};
-						angles[]={0,3.0770512,-0};
+						angles[]={0,3.0770512,0};
 					};
 					side="Civilian";
 					flags=7;
@@ -8960,7 +8979,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={6666.3774,46.671436,1121.8668};
-						angles[]={0,3.0770512,-0};
+						angles[]={0,3.0770512,0};
 					};
 					side="Civilian";
 					flags=7;
@@ -9215,7 +9234,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={6666.3726,46.671436,1120.8668};
-						angles[]={0,3.0770512,-0};
+						angles[]={0,3.0770512,0};
 					};
 					side="Civilian";
 					flags=7;
@@ -9415,7 +9434,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={6667.3774,46.671436,1121.8618};
-						angles[]={0,3.0770512,-0};
+						angles[]={0,3.0770512,0};
 					};
 					side="Civilian";
 					flags=7;
@@ -9604,7 +9623,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={6667.3716,46.671436,1120.8618};
-						angles[]={0,3.0770512,-0};
+						angles[]={0,3.0770512,0};
 					};
 					side="Civilian";
 					flags=7;
@@ -9831,7 +9850,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={6668.3774,46.671574,1121.8557};
-						angles[]={0,3.0770512,-0};
+						angles[]={0,3.0770512,0};
 					};
 					side="Civilian";
 					flags=7;
@@ -10029,7 +10048,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={6668.3726,46.671436,1120.8557};
-						angles[]={0,3.0770512,-0};
+						angles[]={0,3.0770512,0};
 					};
 					side="Civilian";
 					flags=7;
@@ -10291,7 +10310,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={6669.3774,46.699333,1121.8497};
-						angles[]={0,3.0770512,-0};
+						angles[]={0,3.0770512,0};
 					};
 					side="Civilian";
 					flags=7;
@@ -10495,7 +10514,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={6669.3716,46.699165,1120.8497};
-						angles[]={0,3.0770512,-0};
+						angles[]={0,3.0770512,0};
 					};
 					side="Civilian";
 					flags=7;
@@ -10623,7 +10642,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={6685.2832,46.671436,1152.4689};
-						angles[]={0,0.0063134888,-0};
+						angles[]={0,0.0063134888,0};
 					};
 					side="Civilian";
 					flags=7;
@@ -10825,7 +10844,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={6670.3726,46.726952,1120.8446};
-						angles[]={0,3.0770512,-0};
+						angles[]={0,3.0770512,0};
 					};
 					side="Civilian";
 					flags=7;
@@ -10961,7 +10980,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={6663.521,46.671436,1121.8033};
-						angles[]={0,3.1825392,-0};
+						angles[]={0,3.1825392,0};
 					};
 					side="Civilian";
 					flags=7;
@@ -11162,7 +11181,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={6663.4321,46.671436,1120.9482};
-						angles[]={0,3.1825392,-0};
+						angles[]={0,3.1825392,0};
 					};
 					side="Civilian";
 					flags=7;
@@ -11377,7 +11396,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={6671.2153,46.750347,1121.7677};
-						angles[]={0,3.0891287,-0};
+						angles[]={0,3.0891287,0};
 					};
 					side="Civilian";
 					flags=7;
