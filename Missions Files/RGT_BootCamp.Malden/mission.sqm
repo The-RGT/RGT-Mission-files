@@ -34997,8 +34997,8 @@ class Mission
 					flags=7;
 					class Attributes
 					{
-						name="indigQM";
-						description="Indigenous Loadouts";
+						name="TalibanQM";
+						description="Insurgent Loadouts";
 						disableSimulation=1;
 						ignoreByDynSimulGrid=1;
 						class Inventory
@@ -35139,7 +35139,7 @@ class Mission
 								class data
 								{
 									singleType="STRING";
-									value="Indigenous Quartermaster";
+									value="Taliban Quartermaster";
 								};
 							};
 						};

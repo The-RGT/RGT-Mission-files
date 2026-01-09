@@ -11,7 +11,7 @@ chQM call RGT_fnc_chQM;
 guerQM call RGT_fnc_guerQM;
 ucQM call RGT_fnc_ucQM;
 pmcQM call RGT_fnc_pmcQM;
-indigQM call RGT_fnc_indigQM;
+TalibanQM call RGT_fnc_TalibanQM;
 spetsnazQM call RGT_fnc_spetsnazQM;
 divingQM call RGT_fnc_divingQM;
 rusQM call RGT_fnc_rusQM;
