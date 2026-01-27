@@ -14565,7 +14565,7 @@ class Mission
 					flags=7;
 					class Attributes
 					{
-						name="TalibanQM";
+						name="talibanQM";
 						description="Insurgent Loadouts";
 						disableSimulation=1;
 						ignoreByDynSimulGrid=1;
