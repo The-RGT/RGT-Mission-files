@@ -6,13 +6,9 @@ class EditorData
 	scaleGridStep=1;
 	autoGroupingDist=10;
 	toggles=1546;
-	mods[]=
-	{
-		"3denEnhanced"
-	};
 	class ItemIDProvider
 	{
-		nextID=596;
+		nextID=598;
 	};
 	class MarkerIDProvider
 	{
@@ -20,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=35;
+		nextID=37;
 	};
 	class Camera
 	{
-		pos[]={5060.6777,35.392899,1961.6655};
-		dir[]={-0.81780523,-0.55378956,-0.15739328};
-		up[]={-0.5439074,0.8326093,-0.10467669};
-		aside[]={-0.18900847,-1.9875588e-06,0.98209107};
+		pos[]={5052.1147,20.017494,1968.8058};
+		dir[]={0.45049644,-0.85787094,-0.24773568};
+		up[]={0.75170779,0.51389158,-0.41338012};
+		aside[]={-0.48192114,-5.356269e-07,-0.87634581};
 	};
 };
 binarizationWanted=0;
@@ -701,59 +697,6 @@ class CustomAttributes
 		};
 		nAttributes=1;
 	};
-	class Category1
-	{
-		name="Scenario";
-		class Attribute0
-		{
-			property="ENH_mapIndicators";
-			expression="if (!is3DEN && (_value isNotEqualTo [false, false, false, false]) && hasInterface) then {disableMapIndicators _value}";
-			class Value
-			{
-				class data
-				{
-					singleType="ARRAY";
-					class value
-					{
-						items=4;
-						class Item0
-						{
-							class data
-							{
-								singleType="BOOL";
-								value=1;
-							};
-						};
-						class Item1
-						{
-							class data
-							{
-								singleType="BOOL";
-								value=1;
-							};
-						};
-						class Item2
-						{
-							class data
-							{
-								singleType="BOOL";
-								value=1;
-							};
-						};
-						class Item3
-						{
-							class data
-							{
-								singleType="BOOL";
-								value=1;
-							};
-						};
-					};
-				};
-			};
-		};
-		nAttributes=1;
-	};
 };
 class Mission
 {
@@ -796,7 +739,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=91;
+		items=93;
 		class Item0
 		{
 			dataType="Layer";
@@ -8753,7 +8696,7 @@ class Mission
 			};
 			id=376;
 			type="RHS_UH60M";
-			atlOffset=0.0089998245;
+			atlOffset=-0.0031023026;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -9314,6 +9257,7 @@ class Mission
 			};
 			id=402;
 			type="rhsusf_CGRCAT1A2_M2_usmc_d";
+			atlOffset=-4.7683716e-07;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -9938,7 +9882,7 @@ class Mission
 			};
 			id=417;
 			type="rhsusf_m1240a1_m240_usarmy_d";
-			atlOffset=-0.019999504;
+			atlOffset=-0.0288167;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -9973,7 +9917,7 @@ class Mission
 			};
 			id=419;
 			type="rhsusf_m1245_m2crows_socom_d";
-			atlOffset=0.011000156;
+			atlOffset=0.011000633;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -11266,7 +11210,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5059.2808,4.9996138,1962.1482};
+				position[]={5060.9204,4.9996128,1962.2491};
 				angles[]={0.083803542,6.2066607,0.043971907};
 			};
 			side="Empty";
@@ -11276,6 +11220,7 @@ class Mission
 			};
 			id=500;
 			type="Paleta1";
+			atlOffset=-0.064679623;
 		};
 		class Item62
 		{
@@ -11451,7 +11396,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5059.271,5.4072838,1962.0999};
+				position[]={5060.9106,5.4072828,1962.2008};
 				angles[]={0.083810709,6.1719379,0.044121925};
 			};
 			side="Empty";
@@ -11686,19 +11631,6 @@ class Mission
 						};
 						class Attribute4
 						{
-							property="ENH_allowSprint";
-							expression="[_this, _value] remoteExec ['allowSprint', _this]";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute5
-						{
 							property="enableStamina";
 							expression="_this enablestamina _value;";
 							class Value
@@ -11710,7 +11642,7 @@ class Mission
 								};
 							};
 						};
-						nAttributes=6;
+						nAttributes=5;
 					};
 				};
 			};
@@ -11903,19 +11835,6 @@ class Mission
 						};
 						class Attribute4
 						{
-							property="ENH_allowSprint";
-							expression="[_this, _value] remoteExec ['allowSprint', _this]";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute5
-						{
 							property="enableStamina";
 							expression="_this enablestamina _value;";
 							class Value
@@ -11927,7 +11846,7 @@ class Mission
 								};
 							};
 						};
-						nAttributes=6;
+						nAttributes=5;
 					};
 				};
 			};
@@ -12173,19 +12092,6 @@ class Mission
 						};
 						class Attribute4
 						{
-							property="ENH_allowSprint";
-							expression="[_this, _value] remoteExec ['allowSprint', _this]";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute5
-						{
 							property="enableStamina";
 							expression="_this enablestamina _value;";
 							class Value
@@ -12197,7 +12103,7 @@ class Mission
 								};
 							};
 						};
-						nAttributes=6;
+						nAttributes=5;
 					};
 				};
 			};
@@ -12355,19 +12261,6 @@ class Mission
 						};
 						class Attribute4
 						{
-							property="ENH_allowSprint";
-							expression="[_this, _value] remoteExec ['allowSprint', _this]";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute5
-						{
 							property="enableStamina";
 							expression="_this enablestamina _value;";
 							class Value
@@ -12379,7 +12272,7 @@ class Mission
 								};
 							};
 						};
-						nAttributes=6;
+						nAttributes=5;
 					};
 				};
 			};
@@ -12582,19 +12475,6 @@ class Mission
 						};
 						class Attribute4
 						{
-							property="ENH_allowSprint";
-							expression="[_this, _value] remoteExec ['allowSprint', _this]";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute5
-						{
 							property="enableStamina";
 							expression="_this enablestamina _value;";
 							class Value
@@ -12606,7 +12486,7 @@ class Mission
 								};
 							};
 						};
-						nAttributes=6;
+						nAttributes=5;
 					};
 				};
 			};
@@ -12839,19 +12719,6 @@ class Mission
 						};
 						class Attribute4
 						{
-							property="ENH_allowSprint";
-							expression="[_this, _value] remoteExec ['allowSprint', _this]";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute5
-						{
 							property="enableStamina";
 							expression="_this enablestamina _value;";
 							class Value
@@ -12863,7 +12730,7 @@ class Mission
 								};
 							};
 						};
-						nAttributes=6;
+						nAttributes=5;
 					};
 				};
 			};
@@ -12892,8 +12759,8 @@ class Mission
 					flags=7;
 					class Attributes
 					{
-						name="talibanQM";
-						description="Insurgent Loadouts";
+						name="TalibanQM";
+						description="Taliban Loadouts";
 						disableSimulation=1;
 						ignoreByDynSimulGrid=1;
 						class Inventory
@@ -13041,19 +12908,6 @@ class Mission
 						};
 						class Attribute4
 						{
-							property="ENH_allowSprint";
-							expression="[_this, _value] remoteExec ['allowSprint', _this]";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute5
-						{
 							property="enableStamina";
 							expression="_this enablestamina _value;";
 							class Value
@@ -13065,7 +12919,7 @@ class Mission
 								};
 							};
 						};
-						nAttributes=6;
+						nAttributes=5;
 					};
 				};
 			};
@@ -13232,19 +13086,6 @@ class Mission
 						};
 						class Attribute4
 						{
-							property="ENH_allowSprint";
-							expression="[_this, _value] remoteExec ['allowSprint', _this]";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute5
-						{
 							property="enableStamina";
 							expression="_this enablestamina _value;";
 							class Value
@@ -13256,7 +13097,7 @@ class Mission
 								};
 							};
 						};
-						nAttributes=6;
+						nAttributes=5;
 					};
 				};
 			};
@@ -13461,19 +13302,6 @@ class Mission
 						};
 						class Attribute4
 						{
-							property="ENH_allowSprint";
-							expression="[_this, _value] remoteExec ['allowSprint', _this]";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute5
-						{
 							property="enableStamina";
 							expression="_this enablestamina _value;";
 							class Value
@@ -13485,7 +13313,7 @@ class Mission
 								};
 							};
 						};
-						nAttributes=6;
+						nAttributes=5;
 					};
 				};
 			};
@@ -13659,19 +13487,6 @@ class Mission
 						};
 						class Attribute4
 						{
-							property="ENH_allowSprint";
-							expression="[_this, _value] remoteExec ['allowSprint', _this]";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute5
-						{
 							property="enableStamina";
 							expression="_this enablestamina _value;";
 							class Value
@@ -13683,7 +13498,7 @@ class Mission
 								};
 							};
 						};
-						nAttributes=6;
+						nAttributes=5;
 					};
 				};
 			};
@@ -13923,19 +13738,6 @@ class Mission
 						};
 						class Attribute4
 						{
-							property="ENH_allowSprint";
-							expression="[_this, _value] remoteExec ['allowSprint', _this]";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute5
-						{
 							property="enableStamina";
 							expression="_this enablestamina _value;";
 							class Value
@@ -13947,7 +13749,7 @@ class Mission
 								};
 							};
 						};
-						nAttributes=6;
+						nAttributes=5;
 					};
 				};
 			};
@@ -14127,19 +13929,6 @@ class Mission
 						};
 						class Attribute4
 						{
-							property="ENH_allowSprint";
-							expression="[_this, _value] remoteExec ['allowSprint', _this]";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute5
-						{
 							property="enableStamina";
 							expression="_this enablestamina _value;";
 							class Value
@@ -14151,7 +13940,7 @@ class Mission
 								};
 							};
 						};
-						nAttributes=6;
+						nAttributes=5;
 					};
 				};
 			};
@@ -14255,19 +14044,6 @@ class Mission
 						};
 						class Attribute4
 						{
-							property="ENH_allowSprint";
-							expression="[_this, _value] remoteExec ['allowSprint', _this]";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute5
-						{
 							property="enableStamina";
 							expression="_this enablestamina _value;";
 							class Value
@@ -14279,7 +14055,7 @@ class Mission
 								};
 							};
 						};
-						nAttributes=6;
+						nAttributes=5;
 					};
 				};
 			};
@@ -14459,19 +14235,6 @@ class Mission
 						};
 						class Attribute4
 						{
-							property="ENH_allowSprint";
-							expression="[_this, _value] remoteExec ['allowSprint', _this]";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute5
-						{
 							property="enableStamina";
 							expression="_this enablestamina _value;";
 							class Value
@@ -14483,7 +14246,7 @@ class Mission
 								};
 							};
 						};
-						nAttributes=6;
+						nAttributes=5;
 					};
 				};
 			};
@@ -14595,19 +14358,6 @@ class Mission
 						};
 						class Attribute4
 						{
-							property="ENH_allowSprint";
-							expression="[_this, _value] remoteExec ['allowSprint', _this]";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute5
-						{
 							property="enableStamina";
 							expression="_this enablestamina _value;";
 							class Value
@@ -14619,7 +14369,7 @@ class Mission
 								};
 							};
 						};
-						nAttributes=6;
+						nAttributes=5;
 					};
 				};
 			};
@@ -14798,19 +14548,6 @@ class Mission
 						};
 						class Attribute4
 						{
-							property="ENH_allowSprint";
-							expression="[_this, _value] remoteExec ['allowSprint', _this]";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute5
-						{
 							property="enableStamina";
 							expression="_this enablestamina _value;";
 							class Value
@@ -14822,7 +14559,7 @@ class Mission
 								};
 							};
 						};
-						nAttributes=6;
+						nAttributes=5;
 					};
 				};
 			};
@@ -14963,19 +14700,6 @@ class Mission
 						};
 						class Attribute1
 						{
-							property="unitName";
-							expression="_this setname _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="STRING";
-									value="Infantry Quartermaster";
-								};
-							};
-						};
-						class Attribute2
-						{
 							property="face";
 							expression="_this setface _value;";
 							class Value
@@ -14984,6 +14708,19 @@ class Mission
 								{
 									singleType="STRING";
 									value="AfricanHead_03";
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="RHS_Male01RUS";
 								};
 							};
 						};
@@ -15002,14 +14739,14 @@ class Mission
 						};
 						class Attribute4
 						{
-							property="speaker";
-							expression="_this setspeaker _value;";
+							property="unitName";
+							expression="_this setname _value;";
 							class Value
 							{
 								class data
 								{
 									singleType="STRING";
-									value="RHS_Male01RUS";
+									value="Infantry Quartermaster";
 								};
 							};
 						};
@@ -15026,20 +14763,7 @@ class Mission
 								};
 							};
 						};
-						class Attribute6
-						{
-							property="ENH_allowSprint";
-							expression="[_this, _value] remoteExec ['allowSprint', _this]";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						nAttributes=7;
+						nAttributes=6;
 					};
 				};
 			};
@@ -15225,19 +14949,6 @@ class Mission
 						};
 						class Attribute4
 						{
-							property="ENH_allowSprint";
-							expression="[_this, _value] remoteExec ['allowSprint', _this]";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute5
-						{
 							property="enableStamina";
 							expression="_this enablestamina _value;";
 							class Value
@@ -15249,7 +14960,7 @@ class Mission
 								};
 							};
 						};
-						nAttributes=6;
+						nAttributes=5;
 					};
 				};
 			};
@@ -15258,6 +14969,58 @@ class Mission
 			};
 			id=594;
 			atlOffset=0.02768898;
+		};
+		class Item91
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5058.353,4.977807,1961.8994};
+				angles[]={6.2795558,5.9318981,6.2601881};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=596;
+			type="Paleta1";
+			atlOffset=-0.001891613;
+		};
+		class Item92
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5058.3979,5.080512,1962.0208};
+				angles[]={6.2795525,5.941287,6.2601886};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="MedBox";
+			};
+			id=597;
+			type="ACE_medicalSupplyCrate_advanced";
+			atlOffset=0.00021791458;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 	};
 	class Connections
